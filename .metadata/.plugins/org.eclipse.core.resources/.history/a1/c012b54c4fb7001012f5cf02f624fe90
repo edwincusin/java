@@ -27,4 +27,9 @@ public class Calculadora {
 		return resultado;
 	}
 
+	// metodo propmediar
+	public double promedio(double valor1, double valor2, double valor3) {
+		resultado = (valor1 + valor2 + valor3) / 3;
+		return resultado;
+	}
 }

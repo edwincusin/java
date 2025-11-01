@@ -20,11 +20,15 @@ public class Calculadora {
 		double resultado = valor1 * valor2;
 		return resultado;
 	}
-
-	// metodo dividir
+	
+	//metodo dividir
 	public double dividir(double valor1, double valor2) {
-		double resultado = valor1 / valor2;
+		double resultado=valor1/valor2;
 		return resultado;
 	}
-
+	
+	//metodo propmediar
+	public double promedio(double valor1, double valor2) {
+		
+	}
 }
