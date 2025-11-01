@@ -33,8 +33,5 @@ public class Calculadora {
 		return resultado;
 	}
 	
-	//metodo mostrar resultado
-	public void mostrarResultado() {
-		System.out.println("AHORITA NO JOVEN, SALI AL ALMUERZO. REGRESO EN 15 MINUTOS");
-	}
+	
 }
