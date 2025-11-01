@@ -14,8 +14,6 @@ public class Calculadora {
 		double resultado = valor1 - valor2;
 		return resultado;
 	}
-	
-	//-----RETO9----------------
 
 	// metodo multiplicar
 	public double multiplicar(double valor1, double valor2) {

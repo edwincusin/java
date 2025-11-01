@@ -28,7 +28,7 @@ public class TestCalculadora {
 				+"\n DIVISION         : "+resultadoDividir
 				+"\n PROMEDIO 3#      : "+resultadoPromedio
 				);
-		calcu.mostrarResultado();
+		calcu.mostrarResultado()
 	}
 
 }

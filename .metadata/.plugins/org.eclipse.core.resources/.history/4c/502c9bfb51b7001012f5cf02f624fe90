@@ -21,14 +21,13 @@ public class TestCalculadora {
 		double resultadoMultiplicacion, resultadoDividir, resultadoPromedio;
 		resultadoMultiplicacion=calcu.multiplicar(10, 5);
 		resultadoDividir=calcu.dividir(10,2);
-		resultadoPromedio=calcu.promedio(10,8,9);
-		
-		System.out.println("----------------RETO 9 RESULTADOS-------------------"							
+		resultadoPromedio=calcu.promedio(10, 8,9);
+		System.out.println("\n ----------------RETO 9 - RESULTADOS-------------------"				
 				+"\n MULTIPLICACION   : "+resultadoMultiplicacion
 				+"\n DIVISION         : "+resultadoDividir
 				+"\n PROMEDIO 3#      : "+resultadoPromedio
+				+"\n MOSTRARRESULTADO : "+calcu.mostrarResultado()
 				);
-		calcu.mostrarResultado();
 	}
 
 }
