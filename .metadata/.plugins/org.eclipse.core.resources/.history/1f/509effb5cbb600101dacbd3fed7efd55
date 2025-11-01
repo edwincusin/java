@@ -1,0 +1,11 @@
+package com.krakedev;
+
+public class TestPersona {
+
+	public static void main(String[] args) {
+		Persona p; //1. declaro una variable llamada p de tipo persona.
+		
+
+	}
+
+}

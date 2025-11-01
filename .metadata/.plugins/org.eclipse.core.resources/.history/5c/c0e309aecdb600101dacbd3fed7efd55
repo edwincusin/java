@@ -1,0 +1,15 @@
+package com.krakedev;
+
+public class TestPersona {
+
+	public static void main(String[] args) {
+		Persona p; // 1. declaro una variable llamada p de tipo persona.
+		p = new Persona();// 2. instanciar o crerar un objeto persona, refenciarlo
+		//.3 Accedo a los atributos, estoy leyendo los atributos y mostrando en consola
+		System.out.println("nombre: "+p.nombre);
+		System.out.println("edad: "+p.edadPersona);
+		System.out.println("estatura: "+p.estatura);
+		
+	}
+
+}
