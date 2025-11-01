@@ -12,12 +12,12 @@ public class TestAuto {
 		//MODIFICO LOS VALORES AUTO1
 		auto1.marca="BMW";
 		auto1.anio=2024;
-		auto1.precio=30000.00;
+		auto1.precio=30000;
 				
 		//MODIFICO LOS VALORES AUTO1
 		auto2.marca="AUDI";
 		auto2.anio=2022;
-		auto2.precio=50000.00;
+		auto2.precio=50000;
 		
 		//MOSTRAR EN CONSOLA LOS ATRIBUTOS DE CADA OBJETO
 		System.out.println("--------AUTO1-----------");

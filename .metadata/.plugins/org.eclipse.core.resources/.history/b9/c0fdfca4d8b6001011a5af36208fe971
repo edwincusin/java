@@ -1,0 +1,20 @@
+package com.krakedev;
+
+public class TestProducto {
+
+	public static void main(String[] args) {
+		// INSTANCIO Y REFERENCIO
+		Producto productoA, productoB, productoC;
+		productoA= new Producto();
+		productoB= new Producto();
+		productoB= new Producto();
+		
+		//MODIFICAR LOS ATRIBUTOS DE CADA PRODUCTO, CON PROD DE FARMACIA
+		productoB.nombre="BIOSIL";
+		productoB.descripcion="VITAMINAS";
+		productoB.precio=400;
+		productoB.stockActual=40;
+		
+	}
+
+}
