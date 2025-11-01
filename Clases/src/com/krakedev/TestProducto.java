@@ -48,8 +48,7 @@ public class TestProducto {
 				+ "\n Precio      :"+productoC.precio
 				+ "\n Stock       :"+productoC.stockActual
 				+"\n"
-				);
-		
+				);	
 		
 	}
 

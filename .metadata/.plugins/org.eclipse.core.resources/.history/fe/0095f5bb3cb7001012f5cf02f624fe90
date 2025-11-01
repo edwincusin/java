@@ -1,0 +1,9 @@
+package com.krakedev;
+
+public class Calculadora {
+	
+	public int sumar(int varlor1, int valor2) {
+		int resultado;
+		resultado=valor1+valor2;
+	}
+}

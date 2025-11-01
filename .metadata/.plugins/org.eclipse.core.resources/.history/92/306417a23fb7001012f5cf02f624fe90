@@ -1,0 +1,8 @@
+package com.krakedev;
+
+public class Mensajeria {
+	//metodo que no retorna
+	public void saludar() {
+		System.out.println("HOLA HUMANOS");
+	}
+}

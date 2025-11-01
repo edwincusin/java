@@ -1,0 +1,14 @@
+package com.krakedev;
+
+public class TestCalculadora {
+
+	public static void main(String[] args) {
+		//defino la variable
+		Calculadora calcu;
+		//asigno objeto 
+		calcu = new Calculadora();
+		int resultadoSuma=calcu.sumar(5, 3);
+
+	}
+
+}
