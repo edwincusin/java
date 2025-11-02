@@ -1,0 +1,36 @@
+package com.krakedev;
+
+public class Fecha {
+	private int anio;
+	private int mes;
+	private int dia;
+	
+	//crrear metodos que peritan modificar  informacion y recuperar 
+	
+	//metodo para leer atriubtos
+	public int getAnio() {
+		return anio;
+	}
+	
+	public int getMes() {
+		return mes;
+	}
+	public int getDia() {
+		return dia;
+	}
+	
+	
+	//metodos que permiten modificar los atributos - no retorna
+	public void setAnio( int anio) {
+		this.anio=anio;
+	}
+	public void setMes( int nuevomes) {
+		this.mes=nuevomes;
+	}
+	public void setDia( int nuevodia) {
+		this.dia=nuevodia;
+	}
+	
+	
+	
+}

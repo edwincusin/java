@@ -1,0 +1,11 @@
+package com.krakedev;
+
+public class TestFecha {
+
+	public static void main(String[] args) {
+		// intancio y referencio el objeto 
+		Fecha fecha1= new Fecha();
+
+	}
+
+}

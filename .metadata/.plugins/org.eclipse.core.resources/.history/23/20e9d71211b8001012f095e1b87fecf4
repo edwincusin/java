@@ -1,0 +1,16 @@
+package com.krakedev;
+
+public class Fecha {
+	private int anio;
+	private int mes;
+	private int dia;
+	
+	//crrear metodos que peritan modificar  informacion y recuperar 
+	
+	//metodo para leer 
+	public int getAnio() {
+		return anio;
+	}
+	
+	
+}

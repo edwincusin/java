@@ -1,0 +1,72 @@
+package com.krakedev;
+
+public class Fecha {
+	private int anio;
+	private int mes;
+	private int dia;
+	
+	//esta parte se realizo usando el clic derecho
+	public int getAnio() {
+		return anio;
+	}
+	public void setAnio(int anio) {
+		this.anio = anio;
+	}
+	public int getMes() {
+		return mes;
+	}
+	public void setMes(int mes) {
+		this.mes = mes;
+	}
+	public int getDia() {
+		return dia;
+	}
+	public void setDia(int dia) {
+		this.dia = dia;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	//explicacion de manera manual
+	/*
+	//crrear metodos que peritan modificar  informacion y recuperar 
+		
+	//metodo para leer atriubtos
+	public int getAnio() {
+		return anio;
+	}
+	
+	public int getMes() {
+		return mes;
+	}
+	public int getDia() {
+		return dia;
+	}
+	
+	
+	//metodos que permiten modificar los atributos - no retorna
+	public void setAnio( int anio) {
+		this.anio=anio;
+	}
+	public void setMes( int mes) {
+		this.mes=mes;
+	}
+	public void setDia( int dia) {
+		this.dia=dia;
+	}
+	*/
+	
+	
+}
