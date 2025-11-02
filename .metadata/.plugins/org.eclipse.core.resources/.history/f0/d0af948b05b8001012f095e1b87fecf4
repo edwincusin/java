@@ -3,16 +3,16 @@ package com.krakedev;
 public class Rectangulo {
 	public int base;
 	public int altura;
-	
-	//metodo calcular area de un rectangulo
+		
 	public int calcularArea() {
 		int area=base*altura;
 		return area;		
 	}
-	
-	//metodo calcular perimetro de un rectangulo
+		
+	//INICIO RETO 10
+	//calcular perimetro de un rectangulo
 	public int calcularPerimetro() {
-		int perimetro=(altura*2)+(base*2);
+		int perimetro=(calcularArea())*2;
 		return perimetro;
 	}
 	

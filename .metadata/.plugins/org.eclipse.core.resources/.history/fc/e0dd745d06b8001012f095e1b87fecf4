@@ -12,7 +12,7 @@ public class Rectangulo {
 	
 	//metodo calcular perimetro de un rectangulo
 	public int calcularPerimetro() {
-		int perimetro=(altura*2)+(base*2);
+		int perimetro=(calcularArea())*2;
 		return perimetro;
 	}
 	
