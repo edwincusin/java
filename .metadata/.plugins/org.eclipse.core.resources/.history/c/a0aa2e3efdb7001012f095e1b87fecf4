@@ -1,0 +1,11 @@
+package com.krakedev;
+
+public class TestRectangulo {
+
+	public static void main(String[] args) {
+		// instanciar clase rectangulo y referencio con la variable
+		Rectangulo r1 = new Rectangulo();
+
+	}
+
+}

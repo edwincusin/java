@@ -1,0 +1,12 @@
+package com.krakedev;
+
+public class Rectangulo {
+	public int base;
+	public int altura;
+	
+	public int calculadoraArea(int area,int base) {
+		
+		return 0;
+	}
+	
+}

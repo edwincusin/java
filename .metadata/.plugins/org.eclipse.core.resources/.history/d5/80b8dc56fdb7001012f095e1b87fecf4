@@ -1,0 +1,14 @@
+package com.krakedev;
+
+public class TestRectangulo {
+
+	public static void main(String[] args) {
+		// instanciar clase rectangulo y referencio con la variable
+		Rectangulo r1 = new Rectangulo();
+		int area;
+		r1.base=10;
+		area=r1.calculadorArea();
+		
+	}
+
+}
