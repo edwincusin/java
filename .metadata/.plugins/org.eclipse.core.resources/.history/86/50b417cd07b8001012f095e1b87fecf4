@@ -1,0 +1,11 @@
+package com.krakedev;
+
+public class Cuadrado {
+	public double lado;
+	
+	//metodo calcular area
+	public double calcularArea(){
+		double area = Math.pow(lado, 2)
+	}
+	
+}

@@ -25,9 +25,7 @@ public class TestRectangulo {
 				+ "Area de r1      :  "+areaR1
 				+ "\nArea de r2    :  "+areaR2
 				+"\nPerimetro de r3:  "+perimetro1
-				);
-		
-		
+				);		
 		
 	}
 

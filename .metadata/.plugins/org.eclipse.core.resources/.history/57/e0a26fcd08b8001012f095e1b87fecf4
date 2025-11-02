@@ -1,0 +1,15 @@
+package com.krakedev;
+
+public class TestCuadrado {
+
+	public static void main(String[] args) {
+		// instancio y referencio en una variable el objeto
+		Cuadrado c1 = new Cuadrado(); // para area
+		Cuadrado c2 = new Cuadrado(); // para poerimetro
+		double area1, perimetro;
+		
+		c1.lado=4;
+		c
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.krakedev;
+
+public class TestCuadrado {
+
+	public static void main(String[] args) {
+		// instancio y referencio en una variable el objeto
+		Cuadrado c1 = new Cuadrado(); // para area
+		Cuadrado c2 = new Cuadrado(); // para poerimetro
+		double area1, perimetro1;
+		
+		c1.lado=4;
+		c2.lado=3;
+		area1=c1.calcularArea();
+		perimetro1=c2.calcularPerimetro();
+		System.out.println(
+			"---------AREA Y ERIMETRO DE UN CUADRADO-------------"	
+			+"\nEl area es    : "+area1
+			+"\nEl perimetro es    : "+perimetro1
+		);
+	}
+
+}
