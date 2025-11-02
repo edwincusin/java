@@ -1,0 +1,55 @@
+package com.krakedev;
+
+public class TestProducto {
+
+	public static void main(String[] args) {
+		// INSTANCIO Y REFERENCIO
+		Producto productoA, productoB, productoC;
+		productoA= new Producto();
+		productoB= new Producto();
+		productoC= new Producto();
+		
+		//MODIFICAR LOS ATRIBUTOS DE CADA PRODUCTO, CON PROD DE FARMACIA
+		productoA.nombre="BIOSIL";
+		productoA.descripcion="VITAMINAS FRASCO";
+		productoA.precio=50;
+		productoA.stockActual=200;
+		
+		productoB.nombre="PARASETAMOL";
+		productoB.descripcion="CAJAS";
+		productoB.precio=1;
+		productoB.stockActual=100;
+		
+		productoC.nombre="NEUROBION DOLO";
+		productoC.descripcion="TABLETAS";
+		productoC.precio=0.75;
+		productoC.stockActual=80;
+		
+		//MOSTRAR VALORES MODIFICADOS EN PANTALLA 
+		System.out.println("--------------PRODUCTO A------------------"
+				+ "\n Nombre      :"+productoA.nombre
+				+ "\n Descripcion :"+productoA.descripcion
+				+ "\n Precio      :"+productoA.precio
+				+ "\n Stock       :"+productoA.stockActual
+				+"\n"
+				);
+		
+		System.out.println("--------------PRODUCTO B------------------"
+				+ "\n Nombre      :"+productoB.nombre
+				+ "\n Descripcion :"+productoB.descripcion
+				+ "\n Precio      :"+productoB.precio
+				+ "\n Stock       :"+productoB.stockActual
+				+"\n"
+				);
+		
+		System.out.println("--------------PRODUCTO C------------------"
+				+ "\n Nombre      :"+productoC.nombre
+				+ "\n Descripcion :"+productoC.descripcion
+				+ "\n Precio      :"+productoC.precio
+				+ "\n Stock       :"+productoC.stockActual
+				+"\n"
+				);	
+		
+	}
+
+}
