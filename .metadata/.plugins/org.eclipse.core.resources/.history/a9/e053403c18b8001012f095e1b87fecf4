@@ -21,16 +21,17 @@ public class Rectangulo {
 	}
 
 	//metodo calcular area de un rectangulo
-	public int calcularArea() {
+	private int calcularArea() {
 		int area=base*altura;
 		return area;		
 	}
 	
 	//metodo calcular perimetro de un rectangulo
-	public int calcularPerimetro() {
+	private int calcularPerimetro() {
 		int perimetro=(altura*2)+(base*2);
 		return perimetro;
 	}	
+	
 	
 	
 	

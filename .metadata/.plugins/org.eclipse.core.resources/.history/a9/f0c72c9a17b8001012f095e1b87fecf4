@@ -1,25 +1,9 @@
 package com.krakedev;
 
 public class Rectangulo {
-	private int base;
-	private int altura;
-		
-	public int getBase() {
-		return base;
-	}
-
-	public void setBase(int base) {
-		this.base = base;
-	}
-
-	public int getAltura() {
-		return altura;
-	}
-
-	public void setAltura(int altura) {
-		this.altura = altura;
-	}
-
+	public int base;
+	public int altura;
+	
 	//metodo calcular area de un rectangulo
 	public int calcularArea() {
 		int area=base*altura;
@@ -31,7 +15,5 @@ public class Rectangulo {
 		int perimetro=(altura*2)+(base*2);
 		return perimetro;
 	}	
-	
-	
 	
 }
