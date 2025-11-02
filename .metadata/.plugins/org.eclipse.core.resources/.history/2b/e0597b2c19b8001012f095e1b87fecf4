@@ -1,16 +1,7 @@
 package com.krakedev;
 
 public class Cuadrado {
-	private  double lado;//variable
-
-		
-	public double getLado() {
-		return lado;
-	}
-
-	public void setLado(double lado) {
-		this.lado = lado;
-	}
+	public double lado;//variable
 
 	// metodo calcular area
 	public double calcularArea() {
