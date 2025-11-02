@@ -11,28 +11,26 @@ public class TestPersona {
 		//.3 Accedo a los atributos, estoy leyendo los atributos y mostrando en consola
 		System.out.println("nombre: "+p.getNombre());
 		System.out.println("edad: "+p.getEdadPersona());
-		System.out.println("estatura: "+p.getEstatura());
 		
 		//.4 modificar los atributos  
-		p.setNombre("EDWIN");
-		p.setEdadPersona(45);
-		p.setEstatura(1.68);
+		p.nombre="EDWIN";
+		p.edadPersona=45;
+		p.estatura=1.68;
 		
 		//5. accedo a los atributos modificados
 		System.out.println("____________________________");
-		System.out.println("nombre: "+p.getNombre());
-		System.out.println("edad: "+p.getEdadPersona());
-		System.out.println("estatura: "+p.getEstatura());
+		System.out.println("nombre: "+p.nombre);
+		System.out.println("edad: "+p.edadPersona);
+		System.out.println("estatura: "+p.estatura);
 		
 		
 		System.out.println("************segundo objeto*************");
-		p2.setNombre("ANGELINA");
-		p2.setEdadPersona(19);
-		p2.setEstatura(1.75);
-		
-		System.out.println("nombre: "+p2.getNombre());
-		System.out.println("edad: "+p2.getEdadPersona());
-		System.out.println("estatura: "+p2.getEstatura());
+		p2.nombre="ANGELINA";
+		p2.edadPersona=19;
+		p2.estatura=1.75;
+		System.out.println("nombre: "+p2.nombre);
+		System.out.println("edad: "+p2.edadPersona);
+		System.out.println("estatura: "+p2.estatura);
 		
 		
 		

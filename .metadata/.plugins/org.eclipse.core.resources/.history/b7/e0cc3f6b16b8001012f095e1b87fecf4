@@ -11,24 +11,24 @@ public class TestAuto {
 		
 		//MODIFICO LOS VALORES AUTO1
 		auto1.setMarca("BMW");
-		auto1.setAnio(2024);
-		auto1.setPrecio(30000);
+		auto1.anio=2024;
+		auto1.precio=30000;
 				
 		//MODIFICO LOS VALORES AUTO1
-		auto2.setMarca("AUDI");
-		auto2.setAnio(2022);
-		auto2.setPrecio(50000);
+		auto2.marca="AUDI";
+		auto2.anio=2022;
+		auto2.precio=50000;
 		
 		//MOSTRAR EN CONSOLA LOS ATRIBUTOS DE CADA OBJETO
 		System.out.println("--------AUTO1-----------");
-		System.out.println("Marca  : "+auto1.getMarca());
-		System.out.println("Año    : "+auto1.getAnio());
-		System.out.println("Precio : "+auto1.getPrecio());
+		System.out.println("Marca  : "+auto1.marca);
+		System.out.println("Año    : "+auto1.anio);
+		System.out.println("Precio : "+auto1.precio);
 		
 		System.out.println("\n--------AUTO2-----------");
-		System.out.println("Marca  : "+auto2.getMarca());
-		System.out.println("Año    : "+auto2.getAnio());
-		System.out.println("Precio : "+auto2.getPrecio());
+		System.out.println("Marca  : "+auto2.marca);
+		System.out.println("Año    : "+auto2.anio);
+		System.out.println("Precio : "+auto2.precio);
 		
 		
 		

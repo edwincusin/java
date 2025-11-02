@@ -21,14 +21,14 @@ public class TestAuto {
 		
 		//MOSTRAR EN CONSOLA LOS ATRIBUTOS DE CADA OBJETO
 		System.out.println("--------AUTO1-----------");
-		System.out.println("Marca  : "+auto1.getMarca());
-		System.out.println("Año    : "+auto1.getAnio());
-		System.out.println("Precio : "+auto1.getPrecio());
+		System.out.println("Marca  : "+auto1.marca);
+		System.out.println("Año    : "+auto1.anio);
+		System.out.println("Precio : "+auto1.precio);
 		
 		System.out.println("\n--------AUTO2-----------");
-		System.out.println("Marca  : "+auto2.getMarca());
-		System.out.println("Año    : "+auto2.getAnio());
-		System.out.println("Precio : "+auto2.getPrecio());
+		System.out.println("Marca  : "+auto2.marca);
+		System.out.println("Año    : "+auto2.anio);
+		System.out.println("Precio : "+auto2.precio);
 		
 		
 		

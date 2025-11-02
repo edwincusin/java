@@ -26,13 +26,13 @@ public class TestPersona {
 		
 		
 		System.out.println("************segundo objeto*************");
-		p2.setNombre("ANGELINA");
+		p2.setNombre"(ANGELINA");
 		p2.setEdadPersona(19);
 		p2.setEstatura(1.75);
 		
-		System.out.println("nombre: "+p2.getNombre());
-		System.out.println("edad: "+p2.getEdadPersona());
-		System.out.println("estatura: "+p2.getEstatura());
+		System.out.println("nombre: "+p2.nombre);
+		System.out.println("edad: "+p2.edadPersona);
+		System.out.println("estatura: "+p2.estatura);
 		
 		
 		
