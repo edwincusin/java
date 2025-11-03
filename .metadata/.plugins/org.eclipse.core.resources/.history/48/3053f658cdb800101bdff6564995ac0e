@@ -14,7 +14,7 @@ public class TestProducto {
 		
 		productoA= new Producto("BIOSIL","VITAMINAS FRASCO",50,200);
 		productoB= new Producto("PARASETAMOL","CAJAS",1,100);
-		productoC= new Producto("NEUROBION DOLO","TABLETAS",0.75,80);
+		productoC= new Producto();
 		
 		//MODIFICAR LOS ATRIBUTOS DE CADA PRODUCTO, CON PROD DE FARMACIA
 		/*

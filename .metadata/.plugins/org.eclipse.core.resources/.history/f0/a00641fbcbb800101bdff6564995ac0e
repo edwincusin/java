@@ -5,13 +5,17 @@ public class Producto {
 	private String descripcion;
 	private double precio;
 	private int stockActual;
+	
+	
+	public Producto() {
+		System.out.println("INGRESA AL CONSTRUCTOR");
 
-	//crear constructor con parametros 
-	public Producto(String nombre, String descripcion, double precio, int stockActual) {
+	}
+	
+	// CONSTRUCTOR CON PARAMETROS 
+	public Producto(String nombre. String descripcion, double precio, int stockActual) {
 		this.nombre = nombre;
-		this.descripcion = descripcion;
-		this.precio = precio;
-		this.stockActual = stockActual;
+		
 	}
 	
 	public String getNombre() {

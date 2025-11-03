@@ -5,19 +5,11 @@ public class TestProducto {
 	public static void main(String[] args) {
 		// INSTANCIO Y REFERENCIO
 		Producto productoA, productoB, productoC;
-		//constrcutores con sin parametros por defecto 
-//		productoA= new Producto();
-//		productoB= new Producto();
-//		productoC= new Producto();
-		
-		// instancio los constructores con parametros 
-		
-		productoA= new Producto("BIOSIL","VITAMINAS FRASCO",50,200);
-		productoB= new Producto("PARASETAMOL","CAJAS",1,100);
-		productoC= new Producto("NEUROBION DOLO","TABLETAS",0.75,80);
+		productoA= new Producto();
+		productoB= new Producto();
+		productoC= new Producto();
 		
 		//MODIFICAR LOS ATRIBUTOS DE CADA PRODUCTO, CON PROD DE FARMACIA
-		/*
 		productoA.setNombre("BIOSIL");
 		productoA.setDescripcion("VITAMINAS FRASCO");
 		productoA.setPrecio(50);
@@ -32,7 +24,6 @@ public class TestProducto {
 		productoC.setDescripcion("TABLETAS");
 		productoC.setPrecio(0.75);
 		productoC.setStockActual(80);
-		*/
 		
 		//MOSTRAR VALORES MODIFICADOS EN PANTALLA 
 		System.out.println("--------------PRODUCTO A------------------"
