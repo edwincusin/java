@@ -8,6 +8,22 @@ public class TestPersona {
 		
 		Persona p2=new Persona();
 		
+
+		// TRABAJANDO CON LOS CONSTRUCTORES CON PARAMETROS
+		
+		Persona p3=new Persona("EDWIN");
+		Persona p4=new Persona("EDWIN",18,1.75);
+		
+		System.out.println("************cuarto objeto*************");
+		System.out.println("nombre: "+p4.getNombre());
+		System.out.println("edad: "+p4.getEdadPersona());
+		System.out.println("estatura: "+p4.getEstatura());
+		
+		//fin constructores 
+		System.out.println("________________________________________\n");
+		
+		
+		
 		//.3 Accedo a los atributos, estoy leyendo los atributos y mostrando en consola
 		System.out.println("nombre: "+p.getNombre());
 		System.out.println("edad: "+p.getEdadPersona());
@@ -34,6 +50,7 @@ public class TestPersona {
 		System.out.println("edad: "+p2.getEdadPersona());
 		System.out.println("estatura: "+p2.getEstatura());
 		
+
 		
 		
 	}
