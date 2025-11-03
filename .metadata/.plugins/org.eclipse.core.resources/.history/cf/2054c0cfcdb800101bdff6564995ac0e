@@ -5,7 +5,7 @@ public class Cuadrado {
 
 	//creacion constructor con parametros
 	public Cuadrado(double lado) {
-		this.lado=lado;
+		
 	}
 		
 	public double getLado() {

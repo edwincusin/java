@@ -3,10 +3,6 @@ package com.krakedev;
 public class Cuadrado {
 	private  double lado;//variable
 
-	//creacion constructor con parametros
-	public Cuadrado(double lado) {
-		this.lado=lado;
-	}
 		
 	public double getLado() {
 		return lado;
