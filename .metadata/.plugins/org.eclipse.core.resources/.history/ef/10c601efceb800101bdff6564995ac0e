@@ -22,7 +22,7 @@ public class TestAuto {
 
 		//CONSTRUCTORES CON PARAMETROS Y SET 
 		Auto auto1;
-		auto1 = new Auto("BMW",2024,30000);
+		auto1 = new Auto("BMW"2024,30000);
 		Auto auto2;
 		auto2 = new Auto("AUDI",2022,50000);
 		

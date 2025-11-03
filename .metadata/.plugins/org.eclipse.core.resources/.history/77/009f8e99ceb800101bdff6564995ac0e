@@ -7,9 +7,7 @@ public class Auto {
 	
 	//AGREGO CONTRUCTOR CON PARAMETROS 
 	public Auto (String marca, int anio, float precio) {
-		this.marca = marca;
-		this.anio = anio;
-		this.precio = precio;
+		
 	}
 	
 	public String getMarca() {
