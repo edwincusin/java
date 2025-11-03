@@ -60,9 +60,9 @@ public class TestCuentas {
 		
 		// IMPRIMIR LOS VALORES DE LA CUENTA 4.5.6 CON EL METODO IMPRIMIR CONMIESTILO
 		System.out.println("---------IMPRESION CON MI ESTILO---------------\n");
-		cuenta1.imprimirConMiEstilo();
-		cuenta2.imprimirConMiEstilo();
-		cuenta3.imprimirConMiEstilo();
+		cuenta4.imprimirConMiEstilo();
+		cuenta5.imprimirConMiEstilo();
+		cuenta6.imprimirConMiEstilo();
 	}
 
 }
