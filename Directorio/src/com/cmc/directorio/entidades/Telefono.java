@@ -13,6 +13,13 @@ public class Telefono {
 		this.codigo = codigo;
 		
 	}
+	public Telefono(String operadora, String numero, int codigo, boolean tieneWsp ) {
+		this.operadora = operadora;
+		this.numero = numero;
+		this.codigo = codigo;
+		this.tieneWsp = tieneWsp;
+		
+	}
 
 	
 	//metodos get y set
