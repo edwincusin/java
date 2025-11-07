@@ -26,7 +26,7 @@ public class AdminContactos {
 	
 	public void activarUsuario(Contactos contacto) {
 		if(contacto.getTelefono().isTieneWsp()==true) {
-			contacto.setActivo(false);
+			contacto.setActivo(true);
 		}
 	}
 	
