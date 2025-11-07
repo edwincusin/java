@@ -51,38 +51,90 @@ public class MaquinaDulces {
 	
 	//METODO MOSTRARPRODUCTOS
 	public void mostrarProductos() {
-		System.out.println(
-				"\n-----------IMPRESION INFORMACION CELDA 1--------------"
-				+"\nCodigo          : "+celda1.getCodigo()
-				+"\nStock Actual    : "+celda1.getStock()
-				+"\nNombre Producto : "+celda1.getProducto().getNombre()
-				+"\nPrecio Producto : "+celda1.getProducto().getPrecio()
-				+"\n\n"
+		
+		if(celda1.getProducto()!=null) {
+			System.out.println(
+					"\n-----------IMPRESION INFORMACION CELDA 1--------------"
+					+"\nCodigo          : "+celda1.getCodigo()
+					+"\nStock Actual    : "+celda1.getStock()
+					+"\nNombre Producto : "+celda1.getProducto().getNombre()
+					+"\nPrecio Producto : "+celda1.getProducto().getPrecio()
+					+"\nCodigo Producto : "+celda1.getProducto().getCodigo()
+					+"\n\n"
+					);		
+		}else {
+			System.out.println(
+					"\n-----------IMPRESION INFORMACION CELDA 1--------------"
+					+"\nCodigo          : "+celda1.getCodigo()
+					+"\nStock Actual    : "+celda1.getStock()
+					+"\nLa celda no tien prodcutos!!!"
+					+"\n\n"
+					);			
+		}
+
+		
+		if(celda2.getProducto()!=null) {
+			System.out.println(
+					"\n-----------IMPRESION INFORMACION CELDA 2--------------"
+					+"\nCodigo          : "+celda2.getCodigo()
+					+"\nStock Actual    : "+celda2.getStock()
+					+"\nNombre Producto : "+celda2.getProducto().getNombre()
+					+"\nPrecio Producto : "+celda2.getProducto().getPrecio()
+					+"\nCodigo Producto : "+celda2.getProducto().getCodigo()
+					+"\n\n"
+					);		
+		}else {
+			System.out.println(
+					"\n-----------IMPRESION INFORMACION CELDA 2--------------"
+					+"\nCodigo          : "+celda2.getCodigo()
+					+"\nStock Actual    : "+celda2.getStock()
+					+"\nLa celda no tien prodcutos!!!"
+					+"\n\n"
+					);			
+		}
+
+		if(celda3.getProducto()!=null) {
+			System.out.println(
+					"\n-----------IMPRESION INFORMACION CELDA 3--------------"
+					+"\nCodigo          : "+celda3.getCodigo()
+					+"\nStock Actual    : "+celda3.getStock()
+					+"\nNombre Producto : "+celda3.getProducto().getNombre()
+					+"\nPrecio Producto : "+celda3.getProducto().getPrecio()
+					+"\nCodigo Producto : "+celda3.getProducto().getCodigo()
+					+"\n\n"
+					);			
+			}else {
+				System.out.println(
+						"\n-----------IMPRESION INFORMACION CELDA 3--------------"
+						+"\nCodigo          : "+celda3.getCodigo()
+						+"\nStock Actual    : "+celda3.getStock()
+						+"\nLa celda no tien prodcutos!!!"
+						+"\n\n"
+						);			
+			}
+		
+		if(celda4.getProducto()!=null) {
+			System.out.println(
+					"\n-----------IMPRESION INFORMACION CELDA 4--------------"
+					+"\nCodigo          : "+celda4.getCodigo()
+					+"\nStock Actual    : "+celda4.getStock()
+					+"\nNombre Producto : "+celda4.getProducto().getNombre()
+					+"\nPrecio Producto : "+celda4.getProducto().getPrecio()
+					+"\nCodigo Producto : "+celda4.getProducto().getCodigo()
+					+"\n\n"							
+					);			
+		}else {
+			System.out.println(
+					"\n-----------IMPRESION INFORMACION CELDA 4--------------"
+					+"\nCodigo          : "+celda4.getCodigo()
+					+"\nStock Actual    : "+celda4.getStock()
+					+"\nLa celda no tien prodcutos!!!"
+					+"\n\n"
+					);			
+		}		
 				
-				+"\n-----------IMPRESION INFORMACION CELDA 2--------------"
-				+"\nCodigo          : "+celda2.getCodigo()
-				+"\nStock Actual    : "+celda2.getStock()
-				+"\nNombre Producto : "+celda2.getProducto().getNombre()
-				+"\nPrecio Producto : "+celda2.getProducto().getPrecio()
-				+"\n\n"
-				
-				+"\n-----------IMPRESION INFORMACION CELDA 3--------------"
-				+"\nCodigo          : "+celda3.getCodigo()
-				+"\nStock Actual    : "+celda3.getStock()
-				+"\nNombre Producto : "+celda3.getProducto().getNombre()
-				+"\nPrecio Producto : "+celda3.getProducto().getPrecio()
-				+"\n\n"
-				
-				+"\n-----------IMPRESION INFORMACION CELDA 4--------------"
-				+"\nCodigo          : "+celda4.getCodigo()
-				+"\nStock Actual    : "+celda4.getStock()
-				+"\nNombre Producto : "+celda4.getProducto().getNombre()
-				+"\nPrecio Producto : "+celda4.getProducto().getPrecio()
-				+"\n\n"
-				
-				
-				);	
 	}
+	
 	//METODO BUSCAR PRODUTO EN CELDA
 	public Producto buscarProductoEnCelda(String codigoCelda) {
 		Celda celdaEncontrada =  buscarCelda(codigoCelda);
@@ -99,24 +151,33 @@ public class MaquinaDulces {
 	
 	//METODO BUSCAR CELDA PRODUCTO
 	public Celda buscarCeldaProducto(String codigoProducto) {
-		if(celda1.getProducto().getNombre().equals(codigoProducto)) {
+		
+		if (celda1.getProducto() != null && celda1.getProducto().getCodigo().equals(codigoProducto)) {
 			return celda1;
-		}else if(celda2.getProducto().getNombre().equals(codigoProducto)) {
-			return celda2;
-		}else if(celda3.getProducto().getNombre().equals(codigoProducto)) {
-			return celda3;
-		}else if(celda4.getProducto().getNombre().equals(codigoProducto)) {
-			return celda4;
-		}else {
-			return null;
 		}
+
+		if (celda2.getProducto() != null && celda2.getProducto().getCodigo().equals(codigoProducto)) {
+			return celda2;
+		}
+
+		if (celda3.getProducto() != null && celda3.getProducto().getCodigo().equals(codigoProducto)) {
+			return celda3;
+		}
+
+		if (celda4.getProducto() != null && celda4.getProducto().getCodigo().equals(codigoProducto)) {
+			return celda4;
+		}
+
+		// Si no se encuentra el producto
+		return null;
 	
 	}
 	
 	//METODO INCREMENTAR PRODUCTOS
 	public void incrementarProductos(String codigoProducto, int cantidadItem) {
 		Celda celdaEncontrada=buscarCeldaProducto(codigoProducto);
-		celdaEncontrada.setStock(cantidadItem);
+		int nuevoStock=celdaEncontrada.getStock()+cantidadItem;
+			celdaEncontrada.setStock(nuevoStock);
 	}
 	
 	//METODO VENDER
@@ -125,7 +186,7 @@ public class MaquinaDulces {
 		int capturoStockActual=celdaEncontrada.getStock()-1;
 		celdaEncontrada.setStock(capturoStockActual);
 		double  capturoPrecioProducto=celdaEncontrada.getProducto().getPrecio();
-		this.saldo+=capturoPrecioProducto;
+		saldo+=capturoPrecioProducto;
 		
 		mostrarProductos();
 	}
@@ -139,7 +200,7 @@ public class MaquinaDulces {
 		
 		double  capturoPrecioProducto=celdaEncontrada.getProducto().getPrecio();
 		double cambio=valorIngresado-capturoPrecioProducto;
-		this.saldo+=capturoPrecioProducto;
+		saldo+=capturoPrecioProducto;
 		
 		return cambio;
 	}
