@@ -1,7 +1,0 @@
-package com.krakedev;
-
-public class Persona {
-	public String nomre;
-	public int edadPersona;
-	public double estatura;
-}
