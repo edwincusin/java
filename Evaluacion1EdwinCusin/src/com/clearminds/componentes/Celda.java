@@ -11,7 +11,7 @@ public class Celda {
 		this.producto=producto;
 		this.stock=stockInicial;
 	}
-	
+
 	
 	//CONSTRUCTOR
 	public Celda(String codigo) {
