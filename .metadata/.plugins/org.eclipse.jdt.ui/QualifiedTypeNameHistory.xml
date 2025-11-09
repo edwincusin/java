@@ -4,4 +4,10 @@
     <fullyQualifiedTypeName name="com.krakedev.Persona"/>
     <fullyQualifiedTypeName name="com.cmc.repaso.entidades.Item"/>
     <fullyQualifiedTypeName name="com.krakedev.composicion.Direccion"/>
+    <fullyQualifiedTypeName name="com.krakedev.colecciones.TestAdminPersonas"/>
+    <fullyQualifiedTypeName name="com.krakedev.colecciones.AdminPersonas"/>
+    <fullyQualifiedTypeName name="com.krakedev.colecciones.Persona"/>
+    <fullyQualifiedTypeName name="com.clearminds.componentes.Celda"/>
+    <fullyQualifiedTypeName name="com.clearminds.componentes.Producto"/>
+    <fullyQualifiedTypeName name="krakedev.entidades.Estudiante"/>
 </qualifiedTypeNameHistroy>
