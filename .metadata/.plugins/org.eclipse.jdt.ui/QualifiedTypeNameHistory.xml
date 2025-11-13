@@ -10,4 +10,15 @@
     <fullyQualifiedTypeName name="com.clearminds.componentes.Celda"/>
     <fullyQualifiedTypeName name="com.clearminds.componentes.Producto"/>
     <fullyQualifiedTypeName name="krakedev.entidades.Estudiante"/>
+    <fullyQualifiedTypeName name="com.entidades.Numero"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.entidades.Palos"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="com.entidades.Random"/>
+    <fullyQualifiedTypeName name="com.entidades.Carta"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.entidades.Jugadores"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="com.cmc.evaluacion.CalcularAmortizacion"/>
+    <fullyQualifiedTypeName name="com.cmc.evaluacion.Prestamo"/>
 </qualifiedTypeNameHistroy>
