@@ -16,6 +16,17 @@ public class Prestamo {
 		this.interes = interes;
 		this.plazo = plazo;
 	}
+	
+	
+	//METODO MOSTRAR PRESTAMOS
+	public void mostrarPrestamo() {
+		System.out.println(
+				"[monto="+getMonto()
+				+", interes="+getInteres()
+				+", plazo="+getPlazo()
+				+"]"
+				);
+	}
 
 	//METODOS GET Y SET DE TODOS LOS ATRIBUTOS
 	public double getMonto() {

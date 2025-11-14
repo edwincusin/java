@@ -18,7 +18,13 @@
     <fullyQualifiedTypeName name="com.entidades.Carta"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.entidades.Jugadores"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="com.cmc.evaluacion.CalcularAmortizacion"/>
     <fullyQualifiedTypeName name="com.cmc.evaluacion.Prestamo"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="com.cmc.evaluacion.entidades.Utilitario"/>
+    <fullyQualifiedTypeName name="com.cmc.evaluacion.test.TestImpresion"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.Const"/>
+    <fullyQualifiedTypeName name="com.cmc.evaluacion.entidades.Cuota"/>
+    <fullyQualifiedTypeName name="com.cmc.evaluacion.entidades.Prestamo"/>
 </qualifiedTypeNameHistroy>
