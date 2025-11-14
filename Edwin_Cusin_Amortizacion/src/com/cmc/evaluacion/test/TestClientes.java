@@ -11,7 +11,7 @@ public class TestClientes {
             cliente1.mostrarCliente();
 
           Cliente cliente2 = new Cliente("0987654321", "Maria", "Lopez");
-          System.out.print(Cliente: );  
+          System.out.print("Cliente: ");  
           banco.registrarCliente(cliente2);
            cliente2.mostrarCliente();
 

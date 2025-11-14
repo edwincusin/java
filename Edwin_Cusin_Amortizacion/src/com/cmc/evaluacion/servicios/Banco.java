@@ -72,9 +72,7 @@ public class Banco {
 	
 	
 	//METODOS GET Y SET
-	public ArrayList<Prestamo> getPrestamos() {
-		return prestamos;
-	}
+
 
 	public ArrayList<Cliente> getClientes() {
 		return clientes;
