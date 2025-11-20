@@ -27,4 +27,5 @@
     <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.Const"/>
     <fullyQualifiedTypeName name="com.cmc.evaluacion.entidades.Cuota"/>
     <fullyQualifiedTypeName name="com.cmc.evaluacion.entidades.Prestamo"/>
+    <fullyQualifiedTypeName name="com.krakedev.herencia.Animal"/>
 </qualifiedTypeNameHistroy>
