@@ -30,7 +30,6 @@ public class TestAlarmas {
 		
 		System.out.println(alarmasActuales);
 		
-
 	}
 
 }

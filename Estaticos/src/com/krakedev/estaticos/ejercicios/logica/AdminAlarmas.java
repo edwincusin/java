@@ -5,12 +5,10 @@ import com.krakedev.estaticos.ejercicios.entidades.Alarma;
 public class AdminAlarmas {
 	private ArrayList<Alarma> alarmas;
 	
-	
 	public AdminAlarmas() {
 		super();
 		alarmas=new ArrayList<Alarma>(); // inicializo el array
 	}
-
 
 	//METODO AGREGAR ALARMA A LA LISTA
 	public void agregarAlarma(Alarma alarma) {
@@ -21,6 +19,5 @@ public class AdminAlarmas {
 	public ArrayList<Alarma> getAlarmas() {
 		return alarmas;
 	}
-	
 	
 }

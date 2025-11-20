@@ -26,8 +26,6 @@ public class Alarma {
 		return "\n"+Util.formatearDia(dia)+", "+Util.formatearHora(hora)+":"+Util.formatearHora(minuto);
 	}
 
-
-
 	//METODOS GET Y SET
 	public int getDia() {
 		return dia;
@@ -52,8 +50,5 @@ public class Alarma {
 	public void setMinuto(int minuto) {
 		this.minuto = minuto;
 	}
-	
-	
-	
 	
 }
