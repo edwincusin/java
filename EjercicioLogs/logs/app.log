@@ -1,0 +1,5 @@
+2025-11-20 --> 22:03:38.504 [main] INFO  com.krake.ejercicios.Admin - ingresa a agregar
+2025-11-20 --> 22:04:55.614 [main] INFO  com.krake.ejercicios.Admin - ingresa a agregar
+2025-11-20 --> 22:07:42.634 [main] INFO  com.krake.ejercicios.Admin - MENSAJE DE INFO
+2025-11-20 --> 22:07:42.636 [main] WARN  com.krake.ejercicios.Admin - MENSAJE DE warn
+2025-11-20 --> 22:07:42.637 [main] ERROR com.krake.ejercicios.Admin - MENSAJE DE error

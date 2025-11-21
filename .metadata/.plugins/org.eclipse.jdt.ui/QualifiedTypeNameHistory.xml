@@ -16,7 +16,6 @@
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="com.entidades.Random"/>
     <fullyQualifiedTypeName name="com.entidades.Carta"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.entidades.Jugadores"/>
     <fullyQualifiedTypeName name="com.cmc.evaluacion.CalcularAmortizacion"/>
     <fullyQualifiedTypeName name="com.cmc.evaluacion.Prestamo"/>
@@ -27,5 +26,21 @@
     <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.Const"/>
     <fullyQualifiedTypeName name="com.cmc.evaluacion.entidades.Cuota"/>
     <fullyQualifiedTypeName name="com.cmc.evaluacion.entidades.Prestamo"/>
+    <fullyQualifiedTypeName name="com.krakedev.sobrecarga.Bienvenida"/>
     <fullyQualifiedTypeName name="com.krakedev.herencia.Animal"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.krakedev.herencia.Persona"/>
+    <fullyQualifiedTypeName name="com.krakedev.herencia.Gato"/>
+    <fullyQualifiedTypeName name="java.lang.StrictMath"/>
+    <fullyQualifiedTypeName name="com.krakedev.estaticos.Utilitarios"/>
+    <fullyQualifiedTypeName name="com.krakedev.estaticos.ejercicios.logica.AdminAlarmas"/>
+    <fullyQualifiedTypeName name="com.krakedev.estaticos.DiasSemana"/>
+    <fullyQualifiedTypeName name="com.krakedev.estaticos.ejercicios.utils.DiasSemana"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.krakedev.estaticos.ejercicios.entidades.Alarma"/>
+    <fullyQualifiedTypeName name="com.krakedev.estaticos.ejercicios.utils.Util"/>
+    <fullyQualifiedTypeName name="java.util.logging.LogManager"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
+    <fullyQualifiedTypeName name="com.krake.ejercicios.Admin"/>
 </qualifiedTypeNameHistroy>
