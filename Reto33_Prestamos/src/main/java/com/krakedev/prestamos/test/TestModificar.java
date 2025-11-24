@@ -1,5 +1,6 @@
 package com.krakedev.prestamos.test;
 
+import java.math.BigDecimal;
 import java.util.Date;
 
 import com.krakedev.prestamos.entidades.Persona;
@@ -15,9 +16,7 @@ public class TestModificar {
 		Persona p=new Persona();
 		p.setCedula("1753081056");
 		
-		Prestamo prestamo=new Prestamo();
-		prestamo.setPersona(p);
-		prestamo.setCodigo(1);
+		Prestamo prestamo=new Prestamo(51,p,new BigDecimal(10000.50),"SAN LUCAS");
 		
 		try {
 			Date fechaPrestamo=Convertidor.convertirFecha("2020/12/12");
@@ -25,7 +24,7 @@ public class TestModificar {
 			prestamo.setFechaPrestamo(fechaPrestamo);
 			prestamo.setHoraPrestamo(horaPrestamo);
 			
-			AdminPrestamo.eliminar(prestamo);
+			AdminPrestamo.modificar(prestamo);
 		} catch (Exception e) {
 			//e.printStackTrace(); //NO SE LOGEA
 			System.out.println("error en el sistema: "+e.getMessage());
