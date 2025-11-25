@@ -119,7 +119,7 @@ public class Persona {
 	//METODO TOSTRING
 	@Override
 	public String toString() {
-		return "Persona [cedula=" + cedula + ", nombre=" + nombre + ", apellido=" + apellido + ", estatura=" + estatura
+		return "\n Persona [cedula=" + cedula + ", nombre=" + nombre + ", apellido=" + apellido + ", estatura=" + estatura
 				+ ", fechaNacimiento=" + fechaNacimiento + ", horaNacimiento=" + horaNacimiento + ", cantidadAhorrada="
 				+ cantidadAhorrada + ", numeroHijos=" + numeroHijos + ", estadoCivil=" + estadoCivil + "]";
 	}

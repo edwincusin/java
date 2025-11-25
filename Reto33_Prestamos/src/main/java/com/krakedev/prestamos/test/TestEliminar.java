@@ -1,11 +1,8 @@
 package com.krakedev.prestamos.test;
 
-import java.util.Date;
-
 import com.krakedev.prestamos.entidades.Persona;
 import com.krakedev.prestamos.entidades.Prestamo;
 import com.krakedev.prestamos.servicios.AdminPrestamo;
-import com.krakedev.prestamos.util.Convertidor;
 
 public class TestEliminar {
 
