@@ -260,7 +260,7 @@ public class AdminPersonas {
 	
 	//=================== FIN METODO ESTATICO CONSULTAS PERSONA CEDULA CLAVE PRIMARIA EN LA BDD===================
 
-	//=================== RETO 33 METODO ESTATICO CONSULTAS VARIOS REGISTROS EN LA BDD===================
+	//=================== RETO 34 METODO ESTATICO CONSULTAS VARIOS REGISTROS EN LA BDD===================
 	// POR RANGO EN FECHA NACIMIENTO
 	 public static ArrayList<Persona> buscarRangoFechaNacimiento(Date fechaInicio, Date fechaFin) throws Exception{
 		ArrayList<Persona> personas = new ArrayList<Persona>();
@@ -333,7 +333,8 @@ public class AdminPersonas {
 		 
 	 }
 	 
-	
+		//=================== FIN RETO 34 METODO ESTATICO CONSULTAS VARIOS REGISTROS EN LA BDD===================
+
 	
 	
 	
