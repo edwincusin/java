@@ -9,10 +9,11 @@ public class Cliente {
 	public Cliente() {
 	}
 	//constructor con parametros
-	public Cliente(String cedula, String nombre) {
+	public Cliente(String cedula, String nombre, int numeroHijos) {
 		super();
 		this.cedula = cedula;
 		this.nombre = nombre;
+		this.numeroHijos=numeroHijos;
 	}
 	//metodos get y set 
 	public String getCedula() {
@@ -33,10 +34,9 @@ public class Cliente {
 	public void setNumeroHijos(int numeroHijos) {
 		this.numeroHijos = numeroHijos;
 	}
-	//metodo to string con su anotacion
 	@Override
 	public String toString() {
-		return "Cliente [cedula=" + cedula + ", nombre=" + nombre + "]";
+		return "Cliente [cedula=" + cedula + ", nombre=" + nombre + ", numeroHijos=" + numeroHijos + "]";
 	}
 	
 	
