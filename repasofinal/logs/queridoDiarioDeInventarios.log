@@ -1,0 +1,1299 @@
+2025-12-18 --> 00:51:01.255 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 00:51:01.435 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 00:51:01.453 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - RETORNO CON EXITO[
+ Libro [idlibro=1, titulo=LA ILIADA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=2, titulo=CUMANDA, autor=
+ Autor [idAutor=1, nombre=JUAN LEON MERA, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1795, estadoDisponibilidad=false], 
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1885, estadoDisponibilidad=true], 
+ Libro [idlibro=4, titulo=ROSA GUADALUPE, autor=
+ Autor [idAutor=5, nombre=JORGE ORWELL, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=4, nombre=NOVELA HISTORICAS], anioPublicacion=1775, estadoDisponibilidad=true], 
+ Libro [idlibro=5, titulo=LA ODISEA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=6, titulo=EL LOBO Y EL CONEJO, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1822, estadoDisponibilidad=true], 
+ Libro [idlibro=7, titulo=EL HOSPITAL VACIO, autor=
+ Autor [idAutor=5, nombre=JORGE ORWELL, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1833, estadoDisponibilidad=true], 
+ Libro [idlibro=8, titulo=LA LAGUNA AZUL, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1844, estadoDisponibilidad=true], 
+ Libro [idlibro=9, titulo=EL PAYASO, autor=
+ Autor [idAutor=1, nombre=JUAN LEON MERA, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=10, titulo=GUERRA SIN FIN, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=2000, estadoDisponibilidad=false]]
+2025-12-18 --> 00:51:01.453 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 00:51:01.454 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 00:51:01.495 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 00:51:01.500 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - RETORNO CON EXITO[
+ 
+ Prestamo [ idPrestamo=1, libro=
+ Libro [idlibro=1, titulo=LA ILIADA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=EDWIN, fechaPrestamo=2025-10-15, fechaDevolucion=2025-11-11], 
+ 
+ Prestamo [ idPrestamo=2, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=EUGENIA, fechaPrestamo=2025-09-15, fechaDevolucion=2025-10-11], 
+ 
+ Prestamo [ idPrestamo=3, libro=
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=MARIA, fechaPrestamo=2025-08-15, fechaDevolucion=2025-09-11], 
+ 
+ Prestamo [ idPrestamo=4, libro=
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=MARLON, fechaPrestamo=2025-07-15, fechaDevolucion=2025-08-11], 
+ 
+ Prestamo [ idPrestamo=5, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DANIEL, fechaPrestamo=2025-05-15, fechaDevolucion=2025-06-11], 
+ 
+ Prestamo [ idPrestamo=6, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=LUISA, fechaPrestamo=2025-10-15, fechaDevolucion=2025-11-11], 
+ 
+ Prestamo [ idPrestamo=7, libro=
+ Libro [idlibro=7, titulo=EL HOSPITAL VACIO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=ALVARO, fechaPrestamo=2025-11-15, fechaDevolucion=2025-12-11], 
+ 
+ Prestamo [ idPrestamo=8, libro=
+ Libro [idlibro=9, titulo=EL PAYASO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=RAFAEL, fechaPrestamo=2025-04-15, fechaDevolucion=2025-05-11], 
+ 
+ Prestamo [ idPrestamo=9, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=SIXTO, fechaPrestamo=2025-02-15, fechaDevolucion=2025-03-11], 
+ 
+ Prestamo [ idPrestamo=10, libro=
+ Libro [idlibro=6, titulo=EL LOBO Y EL CONEJO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=ELOY, fechaPrestamo=2025-01-15, fechaDevolucion=2025-02-11]]
+2025-12-18 --> 00:51:01.501 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 21:34:44.592 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-18 --> 21:34:44.594 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 21:34:44.594 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 21:34:44.818 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 21:34:44.841 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - ERROR AL REALIZAR LA CONSULTA SQL - - INSERTorg.postgresql.util.PSQLException: ERROR: error de sintaxis en o cerca de «,»
+  Position: 28
+2025-12-18 --> 21:34:44.842 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE- LUEGO DEL INSERT
+2025-12-18 --> 21:38:44.272 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-18 --> 21:38:44.272 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 21:38:44.272 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 21:38:44.486 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 21:38:44.516 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ Libro [idlibro=0, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=null, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=null], anioPublicacion=1888, estadoDisponibilidad=true]
+2025-12-18 --> 21:38:44.516 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 21:38:44.517 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 21:38:44.576 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 21:38:44.588 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - RETORNO CON EXITO[
+ Libro [idlibro=1, titulo=LA ILIADA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=2, titulo=CUMANDA, autor=
+ Autor [idAutor=1, nombre=JUAN LEON MERA, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1795, estadoDisponibilidad=false], 
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1885, estadoDisponibilidad=true], 
+ Libro [idlibro=4, titulo=ROSA GUADALUPE, autor=
+ Autor [idAutor=5, nombre=JORGE ORWELL, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=4, nombre=NOVELA HISTORICAS], anioPublicacion=1775, estadoDisponibilidad=true], 
+ Libro [idlibro=5, titulo=LA ODISEA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=6, titulo=EL LOBO Y EL CONEJO, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1822, estadoDisponibilidad=true], 
+ Libro [idlibro=7, titulo=EL HOSPITAL VACIO, autor=
+ Autor [idAutor=5, nombre=JORGE ORWELL, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1833, estadoDisponibilidad=true], 
+ Libro [idlibro=8, titulo=LA LAGUNA AZUL, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1844, estadoDisponibilidad=true], 
+ Libro [idlibro=9, titulo=EL PAYASO, autor=
+ Autor [idAutor=1, nombre=JUAN LEON MERA, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=10, titulo=GUERRA SIN FIN, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=2000, estadoDisponibilidad=false], 
+ Libro [idlibro=11, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true]]
+2025-12-18 --> 21:38:44.588 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 21:38:44.590 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 21:38:44.641 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 21:38:44.651 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - RETORNO CON EXITO[
+ 
+ Prestamo [ idPrestamo=1, libro=
+ Libro [idlibro=1, titulo=LA ILIADA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=EDWIN, fechaPrestamo=2025-10-15, fechaDevolucion=2025-11-11], 
+ 
+ Prestamo [ idPrestamo=2, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=EUGENIA, fechaPrestamo=2025-09-15, fechaDevolucion=2025-10-11], 
+ 
+ Prestamo [ idPrestamo=3, libro=
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=MARIA, fechaPrestamo=2025-08-15, fechaDevolucion=2025-09-11], 
+ 
+ Prestamo [ idPrestamo=4, libro=
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=MARLON, fechaPrestamo=2025-07-15, fechaDevolucion=2025-08-11], 
+ 
+ Prestamo [ idPrestamo=5, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DANIEL, fechaPrestamo=2025-05-15, fechaDevolucion=2025-06-11], 
+ 
+ Prestamo [ idPrestamo=6, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=LUISA, fechaPrestamo=2025-10-15, fechaDevolucion=2025-11-11], 
+ 
+ Prestamo [ idPrestamo=7, libro=
+ Libro [idlibro=7, titulo=EL HOSPITAL VACIO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=ALVARO, fechaPrestamo=2025-11-15, fechaDevolucion=2025-12-11], 
+ 
+ Prestamo [ idPrestamo=8, libro=
+ Libro [idlibro=9, titulo=EL PAYASO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=RAFAEL, fechaPrestamo=2025-04-15, fechaDevolucion=2025-05-11], 
+ 
+ Prestamo [ idPrestamo=9, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=SIXTO, fechaPrestamo=2025-02-15, fechaDevolucion=2025-03-11], 
+ 
+ Prestamo [ idPrestamo=10, libro=
+ Libro [idlibro=6, titulo=EL LOBO Y EL CONEJO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=ELOY, fechaPrestamo=2025-01-15, fechaDevolucion=2025-02-11]]
+2025-12-18 --> 21:38:44.651 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:12:52.349 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-18 --> 22:12:52.350 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:12:52.350 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:12:52.621 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:12:52.630 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ Libro [idlibro=0, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=null, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=null], anioPublicacion=1888, estadoDisponibilidad=true]
+2025-12-18 --> 22:12:52.631 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:12:52.632 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/05/05
+2025-12-18 --> 22:12:52.632 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/05/05
+2025-12-18 --> 22:12:52.632 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/06/06
+2025-12-18 --> 22:12:52.633 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/06/06
+2025-12-18 --> 22:12:52.633 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION PRESTAMO .......>>>>>>>>
+2025-12-18 --> 22:12:52.633 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:12:52.633 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:12:52.685 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:12:52.685 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:15:03.084 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-18 --> 22:15:03.085 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:15:03.085 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:15:03.256 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:15:03.266 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ Libro [idlibro=0, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=null, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=null], anioPublicacion=1888, estadoDisponibilidad=true]
+2025-12-18 --> 22:15:03.266 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:15:03.268 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/05/05
+2025-12-18 --> 22:15:03.268 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/05/05
+2025-12-18 --> 22:15:03.268 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/06/06
+2025-12-18 --> 22:15:03.268 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/06/06
+2025-12-18 --> 22:15:03.268 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION PRESTAMO .......>>>>>>>>
+2025-12-18 --> 22:15:03.268 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:15:03.268 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:15:03.311 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:15:03.311 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:15:24.796 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-18 --> 22:15:24.796 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:15:24.796 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:15:25.059 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:15:25.069 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ Libro [idlibro=0, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=null, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=null], anioPublicacion=1888, estadoDisponibilidad=true]
+2025-12-18 --> 22:15:25.069 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:15:25.070 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/05/05
+2025-12-18 --> 22:15:25.071 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/05/05
+2025-12-18 --> 22:15:25.071 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/06/06
+2025-12-18 --> 22:15:25.071 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/06/06
+2025-12-18 --> 22:15:25.071 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION PRESTAMO .......>>>>>>>>
+2025-12-18 --> 22:15:25.071 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:15:25.071 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:15:25.117 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:15:25.129 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - ERROR AL REALIZAR LA CONSULTA SQL - - INSERTorg.postgresql.util.PSQLException: ERROR: inserción o actualización en la tabla «prestamos» viola la llave foránea «libros_fk»
+  Detail: La llave (libro_id)=(0) no está presente en la tabla «libros».
+2025-12-18 --> 22:15:25.129 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:17:28.380 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-18 --> 22:17:28.381 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:17:28.381 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:17:28.547 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:17:28.557 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ Libro [idlibro=0, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=null, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=null], anioPublicacion=1888, estadoDisponibilidad=true]
+2025-12-18 --> 22:17:28.557 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:17:28.559 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/05/05
+2025-12-18 --> 22:17:28.560 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/05/05
+2025-12-18 --> 22:17:28.560 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/06/06
+2025-12-18 --> 22:17:28.560 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/06/06
+2025-12-18 --> 22:17:28.561 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION PRESTAMO .......>>>>>>>>
+2025-12-18 --> 22:17:28.561 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:17:28.561 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:17:28.601 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:17:28.622 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ 
+ Prestamo [ idPrestamo=0, libro=
+ Libro [idlibro=5, titulo=null, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=Mon May 05 00:00:00 GMT-05:00 2025, fechaDevolucion=Fri Jun 06 00:00:00 GMT-05:00 2025]
+2025-12-18 --> 22:17:28.622 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:17:28.622 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:17:28.768 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:17:28.775 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - RETORNO CON EXITO[
+ Libro [idlibro=1, titulo=LA ILIADA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=2, titulo=CUMANDA, autor=
+ Autor [idAutor=1, nombre=JUAN LEON MERA, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1795, estadoDisponibilidad=false], 
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1885, estadoDisponibilidad=true], 
+ Libro [idlibro=4, titulo=ROSA GUADALUPE, autor=
+ Autor [idAutor=5, nombre=JORGE ORWELL, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=4, nombre=NOVELA HISTORICAS], anioPublicacion=1775, estadoDisponibilidad=true], 
+ Libro [idlibro=5, titulo=LA ODISEA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=6, titulo=EL LOBO Y EL CONEJO, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1822, estadoDisponibilidad=true], 
+ Libro [idlibro=7, titulo=EL HOSPITAL VACIO, autor=
+ Autor [idAutor=5, nombre=JORGE ORWELL, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1833, estadoDisponibilidad=true], 
+ Libro [idlibro=8, titulo=LA LAGUNA AZUL, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1844, estadoDisponibilidad=true], 
+ Libro [idlibro=9, titulo=EL PAYASO, autor=
+ Autor [idAutor=1, nombre=JUAN LEON MERA, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=10, titulo=GUERRA SIN FIN, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=2000, estadoDisponibilidad=false], 
+ Libro [idlibro=11, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=12, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=13, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=14, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=15, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true]]
+2025-12-18 --> 22:17:28.776 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:17:28.776 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:17:28.810 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:17:28.814 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - RETORNO CON EXITO[
+ 
+ Prestamo [ idPrestamo=1, libro=
+ Libro [idlibro=1, titulo=LA ILIADA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=EDWIN, fechaPrestamo=2025-10-15, fechaDevolucion=2025-11-11], 
+ 
+ Prestamo [ idPrestamo=2, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=EUGENIA, fechaPrestamo=2025-09-15, fechaDevolucion=2025-10-11], 
+ 
+ Prestamo [ idPrestamo=3, libro=
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=MARIA, fechaPrestamo=2025-08-15, fechaDevolucion=2025-09-11], 
+ 
+ Prestamo [ idPrestamo=4, libro=
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=MARLON, fechaPrestamo=2025-07-15, fechaDevolucion=2025-08-11], 
+ 
+ Prestamo [ idPrestamo=5, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DANIEL, fechaPrestamo=2025-05-15, fechaDevolucion=2025-06-11], 
+ 
+ Prestamo [ idPrestamo=6, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=LUISA, fechaPrestamo=2025-10-15, fechaDevolucion=2025-11-11], 
+ 
+ Prestamo [ idPrestamo=7, libro=
+ Libro [idlibro=7, titulo=EL HOSPITAL VACIO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=ALVARO, fechaPrestamo=2025-11-15, fechaDevolucion=2025-12-11], 
+ 
+ Prestamo [ idPrestamo=8, libro=
+ Libro [idlibro=9, titulo=EL PAYASO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=RAFAEL, fechaPrestamo=2025-04-15, fechaDevolucion=2025-05-11], 
+ 
+ Prestamo [ idPrestamo=9, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=SIXTO, fechaPrestamo=2025-02-15, fechaDevolucion=2025-03-11], 
+ 
+ Prestamo [ idPrestamo=10, libro=
+ Libro [idlibro=6, titulo=EL LOBO Y EL CONEJO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=ELOY, fechaPrestamo=2025-01-15, fechaDevolucion=2025-02-11], 
+ 
+ Prestamo [ idPrestamo=12, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06]]
+2025-12-18 --> 22:17:28.814 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:19:20.309 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-18 --> 22:19:20.310 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:19:20.310 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:19:20.473 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:19:20.481 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ Libro [idlibro=0, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=null, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=null], anioPublicacion=1888, estadoDisponibilidad=true]
+2025-12-18 --> 22:19:20.482 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:19:20.483 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/05/05
+2025-12-18 --> 22:19:20.484 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/05/05
+2025-12-18 --> 22:19:20.484 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA202/06/06
+2025-12-18 --> 22:19:20.485 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA202/06/06
+2025-12-18 --> 22:19:20.485 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION PRESTAMO .......>>>>>>>>
+2025-12-18 --> 22:19:20.485 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:19:20.485 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:19:20.617 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:19:20.632 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ 
+ Prestamo [ idPrestamo=0, libro=
+ Libro [idlibro=5, titulo=null, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=Mon May 05 00:00:00 GMT-05:00 2025, fechaDevolucion=Sun Jun 06 00:00:00 GMT-05:00 202]
+2025-12-18 --> 22:19:20.632 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:19:20.632 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:19:20.666 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:19:20.674 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - RETORNO CON EXITO[
+ Libro [idlibro=1, titulo=LA ILIADA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=2, titulo=CUMANDA, autor=
+ Autor [idAutor=1, nombre=JUAN LEON MERA, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1795, estadoDisponibilidad=false], 
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1885, estadoDisponibilidad=true], 
+ Libro [idlibro=4, titulo=ROSA GUADALUPE, autor=
+ Autor [idAutor=5, nombre=JORGE ORWELL, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=4, nombre=NOVELA HISTORICAS], anioPublicacion=1775, estadoDisponibilidad=true], 
+ Libro [idlibro=5, titulo=LA ODISEA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=6, titulo=EL LOBO Y EL CONEJO, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1822, estadoDisponibilidad=true], 
+ Libro [idlibro=7, titulo=EL HOSPITAL VACIO, autor=
+ Autor [idAutor=5, nombre=JORGE ORWELL, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1833, estadoDisponibilidad=true], 
+ Libro [idlibro=8, titulo=LA LAGUNA AZUL, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1844, estadoDisponibilidad=true], 
+ Libro [idlibro=9, titulo=EL PAYASO, autor=
+ Autor [idAutor=1, nombre=JUAN LEON MERA, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=10, titulo=GUERRA SIN FIN, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=2000, estadoDisponibilidad=false], 
+ Libro [idlibro=11, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=12, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=13, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=14, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=15, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=16, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true]]
+2025-12-18 --> 22:19:20.675 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:19:20.675 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:19:20.709 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:19:20.711 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - RETORNO CON EXITO[
+ 
+ Prestamo [ idPrestamo=1, libro=
+ Libro [idlibro=1, titulo=LA ILIADA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=EDWIN, fechaPrestamo=2025-10-15, fechaDevolucion=2025-11-11], 
+ 
+ Prestamo [ idPrestamo=2, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=EUGENIA, fechaPrestamo=2025-09-15, fechaDevolucion=2025-10-11], 
+ 
+ Prestamo [ idPrestamo=3, libro=
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=MARIA, fechaPrestamo=2025-08-15, fechaDevolucion=2025-09-11], 
+ 
+ Prestamo [ idPrestamo=4, libro=
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=MARLON, fechaPrestamo=2025-07-15, fechaDevolucion=2025-08-11], 
+ 
+ Prestamo [ idPrestamo=5, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DANIEL, fechaPrestamo=2025-05-15, fechaDevolucion=2025-06-11], 
+ 
+ Prestamo [ idPrestamo=6, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=LUISA, fechaPrestamo=2025-10-15, fechaDevolucion=2025-11-11], 
+ 
+ Prestamo [ idPrestamo=7, libro=
+ Libro [idlibro=7, titulo=EL HOSPITAL VACIO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=ALVARO, fechaPrestamo=2025-11-15, fechaDevolucion=2025-12-11], 
+ 
+ Prestamo [ idPrestamo=8, libro=
+ Libro [idlibro=9, titulo=EL PAYASO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=RAFAEL, fechaPrestamo=2025-04-15, fechaDevolucion=2025-05-11], 
+ 
+ Prestamo [ idPrestamo=9, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=SIXTO, fechaPrestamo=2025-02-15, fechaDevolucion=2025-03-11], 
+ 
+ Prestamo [ idPrestamo=10, libro=
+ Libro [idlibro=6, titulo=EL LOBO Y EL CONEJO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=ELOY, fechaPrestamo=2025-01-15, fechaDevolucion=2025-02-11], 
+ 
+ Prestamo [ idPrestamo=12, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=13, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=0202-06-06]]
+2025-12-18 --> 22:19:20.713 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:21:16.231 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-18 --> 22:21:16.232 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:21:16.232 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:21:16.456 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:21:16.464 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ Libro [idlibro=0, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=null, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=null], anioPublicacion=1888, estadoDisponibilidad=true]
+2025-12-18 --> 22:21:16.465 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:21:16.466 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/05/05
+2025-12-18 --> 22:21:16.466 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/05/05
+2025-12-18 --> 22:21:16.467 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA202444/06/06
+2025-12-18 --> 22:21:16.467 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA202444/06/06
+2025-12-18 --> 22:21:16.467 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION PRESTAMO .......>>>>>>>>
+2025-12-18 --> 22:21:16.467 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:21:16.467 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:21:16.510 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:21:16.529 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ 
+ Prestamo [ idPrestamo=0, libro=
+ Libro [idlibro=5, titulo=null, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=Mon May 05 00:00:00 GMT-05:00 2025, fechaDevolucion=Mon Jun 06 00:00:00 GMT-05:00 202444]
+2025-12-18 --> 22:21:16.529 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:21:16.530 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:21:16.563 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:21:16.572 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - RETORNO CON EXITO[
+ Libro [idlibro=1, titulo=LA ILIADA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=2, titulo=CUMANDA, autor=
+ Autor [idAutor=1, nombre=JUAN LEON MERA, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1795, estadoDisponibilidad=false], 
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1885, estadoDisponibilidad=true], 
+ Libro [idlibro=4, titulo=ROSA GUADALUPE, autor=
+ Autor [idAutor=5, nombre=JORGE ORWELL, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=4, nombre=NOVELA HISTORICAS], anioPublicacion=1775, estadoDisponibilidad=true], 
+ Libro [idlibro=5, titulo=LA ODISEA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=6, titulo=EL LOBO Y EL CONEJO, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1822, estadoDisponibilidad=true], 
+ Libro [idlibro=7, titulo=EL HOSPITAL VACIO, autor=
+ Autor [idAutor=5, nombre=JORGE ORWELL, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1833, estadoDisponibilidad=true], 
+ Libro [idlibro=8, titulo=LA LAGUNA AZUL, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1844, estadoDisponibilidad=true], 
+ Libro [idlibro=9, titulo=EL PAYASO, autor=
+ Autor [idAutor=1, nombre=JUAN LEON MERA, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=10, titulo=GUERRA SIN FIN, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=2000, estadoDisponibilidad=false], 
+ Libro [idlibro=11, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=12, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=13, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=14, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=15, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=16, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=17, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true]]
+2025-12-18 --> 22:21:16.572 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:21:16.573 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:21:16.606 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:21:16.609 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - RETORNO CON EXITO[
+ 
+ Prestamo [ idPrestamo=1, libro=
+ Libro [idlibro=1, titulo=LA ILIADA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=EDWIN, fechaPrestamo=2025-10-15, fechaDevolucion=2025-11-11], 
+ 
+ Prestamo [ idPrestamo=2, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=EUGENIA, fechaPrestamo=2025-09-15, fechaDevolucion=2025-10-11], 
+ 
+ Prestamo [ idPrestamo=3, libro=
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=MARIA, fechaPrestamo=2025-08-15, fechaDevolucion=2025-09-11], 
+ 
+ Prestamo [ idPrestamo=4, libro=
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=MARLON, fechaPrestamo=2025-07-15, fechaDevolucion=2025-08-11], 
+ 
+ Prestamo [ idPrestamo=5, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DANIEL, fechaPrestamo=2025-05-15, fechaDevolucion=2025-06-11], 
+ 
+ Prestamo [ idPrestamo=6, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=LUISA, fechaPrestamo=2025-10-15, fechaDevolucion=2025-11-11], 
+ 
+ Prestamo [ idPrestamo=7, libro=
+ Libro [idlibro=7, titulo=EL HOSPITAL VACIO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=ALVARO, fechaPrestamo=2025-11-15, fechaDevolucion=2025-12-11], 
+ 
+ Prestamo [ idPrestamo=8, libro=
+ Libro [idlibro=9, titulo=EL PAYASO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=RAFAEL, fechaPrestamo=2025-04-15, fechaDevolucion=2025-05-11], 
+ 
+ Prestamo [ idPrestamo=9, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=SIXTO, fechaPrestamo=2025-02-15, fechaDevolucion=2025-03-11], 
+ 
+ Prestamo [ idPrestamo=10, libro=
+ Libro [idlibro=6, titulo=EL LOBO Y EL CONEJO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=ELOY, fechaPrestamo=2025-01-15, fechaDevolucion=2025-02-11], 
+ 
+ Prestamo [ idPrestamo=12, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=13, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=0202-06-06], 
+ 
+ Prestamo [ idPrestamo=14, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2444-06-06]]
+2025-12-18 --> 22:21:16.609 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:21:27.393 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-18 --> 22:21:27.394 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:21:27.394 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:21:27.668 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:21:27.677 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ Libro [idlibro=0, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=null, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=null], anioPublicacion=1888, estadoDisponibilidad=true]
+2025-12-18 --> 22:21:27.679 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:21:27.680 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/05/05
+2025-12-18 --> 22:21:27.680 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/05/05
+2025-12-18 --> 22:21:27.681 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHAdfdf/06/06
+2025-12-18 --> 22:21:27.681 [main] ERROR com.krakedev.repasoii.utils.ConexionBDD - LA FECHA NO TIENE FORMATO CORRECTO dfdf/06/06
+java.text.ParseException: Unparseable date: "dfdf/06/06"
+	at java.base/java.text.DateFormat.parse(DateFormat.java:427) ~[?:?]
+	at com.krakedev.repasoii.utils.Convertidor.convertirFecha(Convertidor.java:25) [classes/:?]
+	at com.krakedev.repasoii.test.Pruebas.main(Pruebas.java:59) [classes/:?]
+2025-12-18 --> 22:21:42.367 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-18 --> 22:21:42.367 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:21:42.367 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:21:42.528 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:21:42.537 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ Libro [idlibro=0, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=null, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=null], anioPublicacion=1888, estadoDisponibilidad=true]
+2025-12-18 --> 22:21:42.538 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:21:42.539 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/05/05
+2025-12-18 --> 22:21:42.540 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/05/05
+2025-12-18 --> 22:21:42.540 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/06/06
+2025-12-18 --> 22:21:42.540 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/06/06
+2025-12-18 --> 22:21:42.540 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION PRESTAMO .......>>>>>>>>
+2025-12-18 --> 22:21:42.540 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:21:42.540 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:21:42.687 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:21:42.709 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ 
+ Prestamo [ idPrestamo=0, libro=
+ Libro [idlibro=5, titulo=null, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=Mon May 05 00:00:00 GMT-05:00 2025, fechaDevolucion=Fri Jun 06 00:00:00 GMT-05:00 2025]
+2025-12-18 --> 22:21:42.709 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:21:42.709 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:21:42.852 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:21:42.859 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - RETORNO CON EXITO[
+ Libro [idlibro=1, titulo=LA ILIADA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=2, titulo=CUMANDA, autor=
+ Autor [idAutor=1, nombre=JUAN LEON MERA, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1795, estadoDisponibilidad=false], 
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1885, estadoDisponibilidad=true], 
+ Libro [idlibro=4, titulo=ROSA GUADALUPE, autor=
+ Autor [idAutor=5, nombre=JORGE ORWELL, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=4, nombre=NOVELA HISTORICAS], anioPublicacion=1775, estadoDisponibilidad=true], 
+ Libro [idlibro=5, titulo=LA ODISEA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=6, titulo=EL LOBO Y EL CONEJO, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1822, estadoDisponibilidad=true], 
+ Libro [idlibro=7, titulo=EL HOSPITAL VACIO, autor=
+ Autor [idAutor=5, nombre=JORGE ORWELL, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1833, estadoDisponibilidad=true], 
+ Libro [idlibro=8, titulo=LA LAGUNA AZUL, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1844, estadoDisponibilidad=true], 
+ Libro [idlibro=9, titulo=EL PAYASO, autor=
+ Autor [idAutor=1, nombre=JUAN LEON MERA, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=10, titulo=GUERRA SIN FIN, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=2000, estadoDisponibilidad=false], 
+ Libro [idlibro=11, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=12, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=13, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=14, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=15, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=16, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=17, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=18, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=19, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true]]
+2025-12-18 --> 22:21:42.859 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:21:42.859 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:21:42.889 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:21:42.891 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - RETORNO CON EXITO[
+ 
+ Prestamo [ idPrestamo=1, libro=
+ Libro [idlibro=1, titulo=LA ILIADA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=EDWIN, fechaPrestamo=2025-10-15, fechaDevolucion=2025-11-11], 
+ 
+ Prestamo [ idPrestamo=2, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=EUGENIA, fechaPrestamo=2025-09-15, fechaDevolucion=2025-10-11], 
+ 
+ Prestamo [ idPrestamo=3, libro=
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=MARIA, fechaPrestamo=2025-08-15, fechaDevolucion=2025-09-11], 
+ 
+ Prestamo [ idPrestamo=4, libro=
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=MARLON, fechaPrestamo=2025-07-15, fechaDevolucion=2025-08-11], 
+ 
+ Prestamo [ idPrestamo=5, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DANIEL, fechaPrestamo=2025-05-15, fechaDevolucion=2025-06-11], 
+ 
+ Prestamo [ idPrestamo=6, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=LUISA, fechaPrestamo=2025-10-15, fechaDevolucion=2025-11-11], 
+ 
+ Prestamo [ idPrestamo=7, libro=
+ Libro [idlibro=7, titulo=EL HOSPITAL VACIO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=ALVARO, fechaPrestamo=2025-11-15, fechaDevolucion=2025-12-11], 
+ 
+ Prestamo [ idPrestamo=8, libro=
+ Libro [idlibro=9, titulo=EL PAYASO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=RAFAEL, fechaPrestamo=2025-04-15, fechaDevolucion=2025-05-11], 
+ 
+ Prestamo [ idPrestamo=9, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=SIXTO, fechaPrestamo=2025-02-15, fechaDevolucion=2025-03-11], 
+ 
+ Prestamo [ idPrestamo=10, libro=
+ Libro [idlibro=6, titulo=EL LOBO Y EL CONEJO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=ELOY, fechaPrestamo=2025-01-15, fechaDevolucion=2025-02-11], 
+ 
+ Prestamo [ idPrestamo=12, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=13, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=0202-06-06], 
+ 
+ Prestamo [ idPrestamo=14, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2444-06-06], 
+ 
+ Prestamo [ idPrestamo=15, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06]]
+2025-12-18 --> 22:21:42.891 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:33:53.667 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-18 --> 22:33:53.667 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:33:53.667 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:33:53.843 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:33:53.852 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ Libro [idlibro=0, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=null, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=null], anioPublicacion=1888, estadoDisponibilidad=true]
+2025-12-18 --> 22:33:53.853 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:33:53.855 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/05/05
+2025-12-18 --> 22:33:53.856 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/05/05
+2025-12-18 --> 22:33:53.856 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/06/06
+2025-12-18 --> 22:33:53.856 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/06/06
+2025-12-18 --> 22:33:53.856 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION PRESTAMO .......>>>>>>>>
+2025-12-18 --> 22:33:53.856 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:33:53.856 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:33:53.898 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:33:53.915 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ 
+ Prestamo [ idPrestamo=0, libro=
+ Libro [idlibro=5, titulo=null, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=Mon May 05 00:00:00 GMT-05:00 2025, fechaDevolucion=Fri Jun 06 00:00:00 GMT-05:00 2025]
+2025-12-18 --> 22:33:53.915 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:33:53.915 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO ACTUALIZACION LIBRO .......>>>>>>>>
+2025-12-18 --> 22:33:53.915 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO ACTUALIZACION .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:33:53.915 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:33:53.949 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:33:53.954 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - ERROR AL REALIZAR LA CONSULTA SQL - - ACTUALZIACIONorg.postgresql.util.PSQLException: No se ha especificado un valor para el parámetro 2.
+2025-12-18 --> 22:33:53.956 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:35:16.557 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-18 --> 22:35:16.557 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:35:16.557 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:35:16.726 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:35:16.735 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ Libro [idlibro=0, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=null, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=null], anioPublicacion=1888, estadoDisponibilidad=true]
+2025-12-18 --> 22:35:16.736 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:35:16.737 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/05/05
+2025-12-18 --> 22:35:16.738 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/05/05
+2025-12-18 --> 22:35:16.738 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/06/06
+2025-12-18 --> 22:35:16.738 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/06/06
+2025-12-18 --> 22:35:16.738 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION PRESTAMO .......>>>>>>>>
+2025-12-18 --> 22:35:16.738 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:35:16.738 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:35:16.789 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:35:16.805 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ 
+ Prestamo [ idPrestamo=0, libro=
+ Libro [idlibro=5, titulo=null, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=Mon May 05 00:00:00 GMT-05:00 2025, fechaDevolucion=Fri Jun 06 00:00:00 GMT-05:00 2025]
+2025-12-18 --> 22:35:16.805 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:35:16.805 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO ACTUALIZACION LIBRO .......>>>>>>>>
+2025-12-18 --> 22:35:16.805 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO ACTUALIZACION .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:35:16.805 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:35:16.838 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:35:16.839 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:41:17.047 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-18 --> 22:41:17.048 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:41:17.048 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:41:17.213 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:41:17.226 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - ERROR AL REALIZAR LA CONSULTA SQL - - INSERTorg.postgresql.util.PSQLException: ERROR: inserción o actualización en la tabla «libros» viola la llave foránea «genero_fk»
+  Detail: La llave (genero_id)=(0) no está presente en la tabla «genero».
+2025-12-18 --> 22:41:17.227 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:43:18.002 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-18 --> 22:43:18.002 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:43:18.002 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:43:18.189 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:43:18.207 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - ERROR AL REALIZAR LA CONSULTA SQL - - INSERTorg.postgresql.util.PSQLException: ERROR: inserción o actualización en la tabla «libros» viola la llave foránea «genero_fk»
+  Detail: La llave (genero_id)=(0) no está presente en la tabla «genero».
+2025-12-18 --> 22:43:18.209 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:45:54.290 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-18 --> 22:45:54.291 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:45:54.291 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:45:54.566 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:45:54.575 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ Libro [idlibro=0, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=3, nombre=null, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=null], anioPublicacion=1888, estadoDisponibilidad=true]
+2025-12-18 --> 22:45:54.575 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:45:54.576 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/05/05
+2025-12-18 --> 22:45:54.577 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/05/05
+2025-12-18 --> 22:45:54.577 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/06/06
+2025-12-18 --> 22:45:54.577 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/06/06
+2025-12-18 --> 22:45:54.577 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION PRESTAMO .......>>>>>>>>
+2025-12-18 --> 22:45:54.577 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:45:54.577 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:45:54.716 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:45:54.731 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ 
+ Prestamo [ idPrestamo=0, libro=
+ Libro [idlibro=5, titulo=null, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=Mon May 05 00:00:00 GMT-05:00 2025, fechaDevolucion=Fri Jun 06 00:00:00 GMT-05:00 2025]
+2025-12-18 --> 22:45:54.732 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:45:54.732 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO ACTUALIZACION LIBRO .......>>>>>>>>
+2025-12-18 --> 22:45:54.732 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO ACTUALIZACION .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:45:54.732 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:45:54.865 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:45:54.876 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - ERROR AL REALIZAR LA CONSULTA SQL - - ACTUALZIACIONorg.postgresql.util.PSQLException: ERROR: inserción o actualización en la tabla «libros» viola la llave foránea «autores_fk»
+  Detail: La llave (autor_id)=(0) no está presente en la tabla «autores».
+2025-12-18 --> 22:45:54.877 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:46:48.003 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-18 --> 22:46:48.003 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:46:48.003 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:46:48.158 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:46:48.166 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ Libro [idlibro=0, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=2, nombre=null, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=null], anioPublicacion=1888, estadoDisponibilidad=true]
+2025-12-18 --> 22:46:48.167 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:46:48.168 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/05/05
+2025-12-18 --> 22:46:48.169 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/05/05
+2025-12-18 --> 22:46:48.169 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/06/06
+2025-12-18 --> 22:46:48.169 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/06/06
+2025-12-18 --> 22:46:48.169 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION PRESTAMO .......>>>>>>>>
+2025-12-18 --> 22:46:48.169 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:46:48.169 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:46:48.326 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:46:48.343 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ 
+ Prestamo [ idPrestamo=0, libro=
+ Libro [idlibro=5, titulo=null, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=Mon May 05 00:00:00 GMT-05:00 2025, fechaDevolucion=Fri Jun 06 00:00:00 GMT-05:00 2025]
+2025-12-18 --> 22:46:48.344 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:46:48.344 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO ACTUALIZACION LIBRO .......>>>>>>>>
+2025-12-18 --> 22:46:48.344 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO ACTUALIZACION .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:46:48.344 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:46:48.377 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:46:48.383 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - ERROR AL REALIZAR LA CONSULTA SQL - - ACTUALZIACIONorg.postgresql.util.PSQLException: ERROR: inserción o actualización en la tabla «libros» viola la llave foránea «genero_fk»
+  Detail: La llave (genero_id)=(0) no está presente en la tabla «genero».
+2025-12-18 --> 22:46:48.383 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:47:06.203 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-18 --> 22:47:06.204 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:47:06.204 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:47:06.368 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:47:06.375 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ Libro [idlibro=0, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=2, nombre=null, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=null], anioPublicacion=1888, estadoDisponibilidad=true]
+2025-12-18 --> 22:47:06.376 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:47:06.379 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/05/05
+2025-12-18 --> 22:47:06.379 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/05/05
+2025-12-18 --> 22:47:06.379 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/06/06
+2025-12-18 --> 22:47:06.379 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/06/06
+2025-12-18 --> 22:47:06.379 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION PRESTAMO .......>>>>>>>>
+2025-12-18 --> 22:47:06.379 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:47:06.379 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:47:06.414 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:47:06.436 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ 
+ Prestamo [ idPrestamo=0, libro=
+ Libro [idlibro=5, titulo=null, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=Mon May 05 00:00:00 GMT-05:00 2025, fechaDevolucion=Fri Jun 06 00:00:00 GMT-05:00 2025]
+2025-12-18 --> 22:47:06.436 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:47:06.436 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO ACTUALIZACION LIBRO .......>>>>>>>>
+2025-12-18 --> 22:47:06.436 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO ACTUALIZACION .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 22:47:06.436 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:47:06.568 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:47:06.570 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - ACTUALZIACION CON EXITO
+ Libro [idlibro=15, titulo=DON QUIJOTE DE LA MANCHA, autor=
+ Autor [idAutor=3, nombre=null, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=null], anioPublicacion=5555, estadoDisponibilidad=false]
+2025-12-18 --> 22:47:06.570 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:47:06.570 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:47:06.706 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:47:06.713 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - RETORNO CON EXITO[
+ Libro [idlibro=1, titulo=LA ILIADA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=2, titulo=CUMANDA, autor=
+ Autor [idAutor=1, nombre=JUAN LEON MERA, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1795, estadoDisponibilidad=false], 
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1885, estadoDisponibilidad=true], 
+ Libro [idlibro=4, titulo=ROSA GUADALUPE, autor=
+ Autor [idAutor=5, nombre=JORGE ORWELL, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=4, nombre=NOVELA HISTORICAS], anioPublicacion=1775, estadoDisponibilidad=true], 
+ Libro [idlibro=5, titulo=LA ODISEA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=6, titulo=EL LOBO Y EL CONEJO, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1822, estadoDisponibilidad=true], 
+ Libro [idlibro=7, titulo=EL HOSPITAL VACIO, autor=
+ Autor [idAutor=5, nombre=JORGE ORWELL, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1833, estadoDisponibilidad=true], 
+ Libro [idlibro=8, titulo=LA LAGUNA AZUL, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1844, estadoDisponibilidad=true], 
+ Libro [idlibro=9, titulo=EL PAYASO, autor=
+ Autor [idAutor=1, nombre=JUAN LEON MERA, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=10, titulo=GUERRA SIN FIN, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=2000, estadoDisponibilidad=false], 
+ Libro [idlibro=11, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=12, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=13, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=14, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=16, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=17, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=18, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=19, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=20, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=21, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=24, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=25, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=26, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=15, titulo=DON QUIJOTE DE LA MANCHA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=5555, estadoDisponibilidad=false]]
+2025-12-18 --> 22:47:06.715 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 22:47:06.715 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 22:47:06.744 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 22:47:06.748 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - RETORNO CON EXITO[
+ 
+ Prestamo [ idPrestamo=1, libro=
+ Libro [idlibro=1, titulo=LA ILIADA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=EDWIN, fechaPrestamo=2025-10-15, fechaDevolucion=2025-11-11], 
+ 
+ Prestamo [ idPrestamo=2, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=EUGENIA, fechaPrestamo=2025-09-15, fechaDevolucion=2025-10-11], 
+ 
+ Prestamo [ idPrestamo=3, libro=
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=MARIA, fechaPrestamo=2025-08-15, fechaDevolucion=2025-09-11], 
+ 
+ Prestamo [ idPrestamo=4, libro=
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=MARLON, fechaPrestamo=2025-07-15, fechaDevolucion=2025-08-11], 
+ 
+ Prestamo [ idPrestamo=5, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DANIEL, fechaPrestamo=2025-05-15, fechaDevolucion=2025-06-11], 
+ 
+ Prestamo [ idPrestamo=6, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=LUISA, fechaPrestamo=2025-10-15, fechaDevolucion=2025-11-11], 
+ 
+ Prestamo [ idPrestamo=7, libro=
+ Libro [idlibro=7, titulo=EL HOSPITAL VACIO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=ALVARO, fechaPrestamo=2025-11-15, fechaDevolucion=2025-12-11], 
+ 
+ Prestamo [ idPrestamo=8, libro=
+ Libro [idlibro=9, titulo=EL PAYASO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=RAFAEL, fechaPrestamo=2025-04-15, fechaDevolucion=2025-05-11], 
+ 
+ Prestamo [ idPrestamo=9, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=SIXTO, fechaPrestamo=2025-02-15, fechaDevolucion=2025-03-11], 
+ 
+ Prestamo [ idPrestamo=10, libro=
+ Libro [idlibro=6, titulo=EL LOBO Y EL CONEJO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=ELOY, fechaPrestamo=2025-01-15, fechaDevolucion=2025-02-11], 
+ 
+ Prestamo [ idPrestamo=12, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=13, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=0202-06-06], 
+ 
+ Prestamo [ idPrestamo=14, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2444-06-06], 
+ 
+ Prestamo [ idPrestamo=15, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=16, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=17, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=18, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=19, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=20, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06]]
+2025-12-18 --> 22:47:06.748 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 23:04:54.550 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-18 --> 23:04:54.550 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO LIBRO .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 23:04:54.550 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 23:04:54.818 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 23:04:54.829 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION LIBRO CON EXITO
+ Libro [idlibro=0, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=2, nombre=null, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=null], anioPublicacion=1888, estadoDisponibilidad=true]
+2025-12-18 --> 23:04:54.829 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 23:04:54.830 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/05/05
+2025-12-18 --> 23:04:54.830 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/05/05
+2025-12-18 --> 23:04:54.831 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/06/06
+2025-12-18 --> 23:04:54.831 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/06/06
+2025-12-18 --> 23:04:54.831 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION PRESTAMO .......>>>>>>>>
+2025-12-18 --> 23:04:54.831 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO PRESTAMO.. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 23:04:54.831 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 23:04:54.870 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 23:04:54.891 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ 
+ Prestamo [ idPrestamo=0, libro=
+ Libro [idlibro=5, titulo=null, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=Mon May 05 00:00:00 GMT-05:00 2025, fechaDevolucion=Fri Jun 06 00:00:00 GMT-05:00 2025]
+2025-12-18 --> 23:04:54.892 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 23:04:54.892 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO ACTUALIZACION LIBRO .......>>>>>>>>
+2025-12-18 --> 23:04:54.892 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO ACTUALIZACION .. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 23:04:54.892 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 23:04:54.923 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 23:04:54.925 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - ACTUALZIACION CON EXITO
+ Libro [idlibro=15, titulo=DON QUIJOTE DE LA MANCHA, autor=
+ Autor [idAutor=3, nombre=null, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=null], anioPublicacion=5555, estadoDisponibilidad=false]
+2025-12-18 --> 23:04:54.925 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 23:04:54.925 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/05/05
+2025-12-18 --> 23:04:54.925 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/05/05
+2025-12-18 --> 23:04:54.925 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/06/06
+2025-12-18 --> 23:04:54.925 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/06/06
+2025-12-18 --> 23:04:54.925 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO ACTUALIZAR PRESTAMO .......>>>>>>>>
+2025-12-18 --> 23:04:54.926 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - ACTUALIZAR PRESTAMO.. >>>>>>>>>>>>>>>>>>
+2025-12-18 --> 23:04:54.926 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 23:04:55.067 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 23:04:55.070 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO ACTUALIZAR 
+ 
+ Prestamo [ idPrestamo=3, libro=
+ Libro [idlibro=5, titulo=null, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=JAIME TACO, fechaPrestamo=Mon May 05 00:00:00 GMT-05:00 2025, fechaDevolucion=Fri Jun 06 00:00:00 GMT-05:00 2025]
+2025-12-18 --> 23:04:55.071 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 23:04:55.071 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 23:04:55.202 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 23:04:55.209 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - RETORNO CON EXITO mostrarLibros : [
+ Libro [idlibro=1, titulo=LA ILIADA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=2, titulo=CUMANDA, autor=
+ Autor [idAutor=1, nombre=JUAN LEON MERA, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1795, estadoDisponibilidad=false], 
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1885, estadoDisponibilidad=true], 
+ Libro [idlibro=4, titulo=ROSA GUADALUPE, autor=
+ Autor [idAutor=5, nombre=JORGE ORWELL, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=4, nombre=NOVELA HISTORICAS], anioPublicacion=1775, estadoDisponibilidad=true], 
+ Libro [idlibro=5, titulo=LA ODISEA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=6, titulo=EL LOBO Y EL CONEJO, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1822, estadoDisponibilidad=true], 
+ Libro [idlibro=7, titulo=EL HOSPITAL VACIO, autor=
+ Autor [idAutor=5, nombre=JORGE ORWELL, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1833, estadoDisponibilidad=true], 
+ Libro [idlibro=8, titulo=LA LAGUNA AZUL, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1844, estadoDisponibilidad=true], 
+ Libro [idlibro=9, titulo=EL PAYASO, autor=
+ Autor [idAutor=1, nombre=JUAN LEON MERA, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=10, titulo=GUERRA SIN FIN, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=2000, estadoDisponibilidad=false], 
+ Libro [idlibro=11, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=12, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=13, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=14, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=16, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=17, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=18, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=19, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=20, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=21, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=24, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=25, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=26, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=27, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=15, titulo=DON QUIJOTE DE LA MANCHA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=5555, estadoDisponibilidad=false]]
+2025-12-18 --> 23:04:55.209 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-18 --> 23:04:55.210 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-18 --> 23:04:55.237 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-18 --> 23:04:55.241 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - RETORNO CON EXITO mostrarPrestamos [
+ 
+ Prestamo [ idPrestamo=1, libro=
+ Libro [idlibro=1, titulo=LA ILIADA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=EDWIN, fechaPrestamo=2025-10-15, fechaDevolucion=2025-11-11], 
+ 
+ Prestamo [ idPrestamo=2, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=EUGENIA, fechaPrestamo=2025-09-15, fechaDevolucion=2025-10-11], 
+ 
+ Prestamo [ idPrestamo=4, libro=
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=MARLON, fechaPrestamo=2025-07-15, fechaDevolucion=2025-08-11], 
+ 
+ Prestamo [ idPrestamo=5, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DANIEL, fechaPrestamo=2025-05-15, fechaDevolucion=2025-06-11], 
+ 
+ Prestamo [ idPrestamo=6, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=LUISA, fechaPrestamo=2025-10-15, fechaDevolucion=2025-11-11], 
+ 
+ Prestamo [ idPrestamo=7, libro=
+ Libro [idlibro=7, titulo=EL HOSPITAL VACIO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=ALVARO, fechaPrestamo=2025-11-15, fechaDevolucion=2025-12-11], 
+ 
+ Prestamo [ idPrestamo=8, libro=
+ Libro [idlibro=9, titulo=EL PAYASO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=RAFAEL, fechaPrestamo=2025-04-15, fechaDevolucion=2025-05-11], 
+ 
+ Prestamo [ idPrestamo=9, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=SIXTO, fechaPrestamo=2025-02-15, fechaDevolucion=2025-03-11], 
+ 
+ Prestamo [ idPrestamo=10, libro=
+ Libro [idlibro=6, titulo=EL LOBO Y EL CONEJO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=ELOY, fechaPrestamo=2025-01-15, fechaDevolucion=2025-02-11], 
+ 
+ Prestamo [ idPrestamo=12, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=13, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=0202-06-06], 
+ 
+ Prestamo [ idPrestamo=14, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2444-06-06], 
+ 
+ Prestamo [ idPrestamo=15, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=16, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=17, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=18, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=19, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=20, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=21, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=3, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=JAIME TACO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06]]
+2025-12-18 --> 23:04:55.241 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-20 --> 10:37:01.289 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-20 --> 10:37:01.290 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO LIBRO .. >>>>>>>>>>>>>>>>>>
+2025-12-20 --> 10:37:01.290 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-20 --> 10:37:01.497 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-20 --> 10:37:01.520 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION LIBRO CON EXITO
+ Libro [idlibro=0, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=2, nombre=null, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=null], anioPublicacion=1888, estadoDisponibilidad=true]
+2025-12-20 --> 10:37:01.520 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-20 --> 10:37:01.522 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/05/05
+2025-12-20 --> 10:37:01.523 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/05/05
+2025-12-20 --> 10:37:01.523 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/06/06
+2025-12-20 --> 10:37:01.523 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/06/06
+2025-12-20 --> 10:37:01.523 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION PRESTAMO .......>>>>>>>>
+2025-12-20 --> 10:37:01.523 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO PRESTAMO.. >>>>>>>>>>>>>>>>>>
+2025-12-20 --> 10:37:01.523 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-20 --> 10:37:01.678 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-20 --> 10:37:01.702 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO
+ 
+ Prestamo [ idPrestamo=0, libro=
+ Libro [idlibro=5, titulo=null, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=Mon May 05 00:00:00 GMT-05:00 2025, fechaDevolucion=Fri Jun 06 00:00:00 GMT-05:00 2025]
+2025-12-20 --> 10:37:01.702 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-20 --> 10:37:01.702 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO ACTUALIZACION LIBRO .......>>>>>>>>
+2025-12-20 --> 10:37:01.702 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO ACTUALIZACION .. >>>>>>>>>>>>>>>>>>
+2025-12-20 --> 10:37:01.702 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-20 --> 10:37:01.732 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-20 --> 10:37:01.738 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - ACTUALZIACION CON EXITO
+ Libro [idlibro=15, titulo=DON QUIJOTE DE LA MANCHA, autor=
+ Autor [idAutor=3, nombre=null, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=null], anioPublicacion=5555, estadoDisponibilidad=false]
+2025-12-20 --> 10:37:01.738 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-20 --> 10:37:01.739 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/05/05
+2025-12-20 --> 10:37:01.739 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/05/05
+2025-12-20 --> 10:37:01.739 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - CONVIRTIENDO FECHA2025/06/06
+2025-12-20 --> 10:37:01.739 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - FECHA CONVERTIDA2025/06/06
+2025-12-20 --> 10:37:01.739 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO ACTUALIZAR PRESTAMO .......>>>>>>>>
+2025-12-20 --> 10:37:01.739 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - ACTUALIZAR PRESTAMO.. >>>>>>>>>>>>>>>>>>
+2025-12-20 --> 10:37:01.739 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-20 --> 10:37:01.774 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-20 --> 10:37:01.776 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERCION CON EXITO ACTUALIZAR 
+ 
+ Prestamo [ idPrestamo=3, libro=
+ Libro [idlibro=5, titulo=null, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=JAIME TACO, fechaPrestamo=Mon May 05 00:00:00 GMT-05:00 2025, fechaDevolucion=Fri Jun 06 00:00:00 GMT-05:00 2025]
+2025-12-20 --> 10:37:01.776 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-20 --> 10:37:01.776 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-20 --> 10:37:01.802 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-20 --> 10:37:01.811 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - RETORNO CON EXITO mostrarLibros : [
+ Libro [idlibro=1, titulo=LA ILIADA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=2, titulo=CUMANDA, autor=
+ Autor [idAutor=1, nombre=JUAN LEON MERA, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1795, estadoDisponibilidad=false], 
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1885, estadoDisponibilidad=true], 
+ Libro [idlibro=4, titulo=ROSA GUADALUPE, autor=
+ Autor [idAutor=5, nombre=JORGE ORWELL, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=4, nombre=NOVELA HISTORICAS], anioPublicacion=1775, estadoDisponibilidad=true], 
+ Libro [idlibro=5, titulo=LA ODISEA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=6, titulo=EL LOBO Y EL CONEJO, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1822, estadoDisponibilidad=true], 
+ Libro [idlibro=7, titulo=EL HOSPITAL VACIO, autor=
+ Autor [idAutor=5, nombre=JORGE ORWELL, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1833, estadoDisponibilidad=true], 
+ Libro [idlibro=8, titulo=LA LAGUNA AZUL, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1844, estadoDisponibilidad=true], 
+ Libro [idlibro=9, titulo=EL PAYASO, autor=
+ Autor [idAutor=1, nombre=JUAN LEON MERA, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1895, estadoDisponibilidad=false], 
+ Libro [idlibro=10, titulo=GUERRA SIN FIN, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=2000, estadoDisponibilidad=false], 
+ Libro [idlibro=11, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=12, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=13, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=14, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=16, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=17, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=18, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=19, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=20, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=21, titulo=LA BELLA Y LA BESTIA, autor=
+ Autor [idAutor=4, nombre=WILIAM SHAKERPERS, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=3, nombre=AVENTURAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=24, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=25, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=26, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=27, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=28, titulo=LAS 7 MARAVILLAS EL MUNDO, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1999, estadoDisponibilidad=true], 
+ Libro [idlibro=29, titulo=LAS 7 MARAVILLAS EL MUNDO, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1999, estadoDisponibilidad=true], 
+ Libro [idlibro=30, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=31, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=32, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=33, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=34, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=35, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=36, titulo=GARCIA MORENO, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=37, titulo=EL MUNDO, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1999, estadoDisponibilidad=true], 
+ Libro [idlibro=38, titulo=TAITA IMBABURA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1999, estadoDisponibilidad=true], 
+ Libro [idlibro=39, titulo=GIGANTE, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1999, estadoDisponibilidad=false], 
+ Libro [idlibro=40, titulo=SAN LUCAS, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=1, nombre=ROMATICO], anioPublicacion=1999, estadoDisponibilidad=false], 
+ Libro [idlibro=41, titulo=lA MONTAÑA, autor=
+ Autor [idAutor=2, nombre=MIGUEL CERVANTES, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=2, nombre=CIENCIA FICCION], anioPublicacion=1888, estadoDisponibilidad=true], 
+ Libro [idlibro=15, titulo=DON QUIJOTE DE LA MANCHA, autor=
+ Autor [idAutor=3, nombre=HOMERO, fechaNacimiento=null, nacionalidad=null], genero=Genero [idGenero=5, nombre=FABULAS], anioPublicacion=5555, estadoDisponibilidad=false]]
+2025-12-20 --> 10:37:01.812 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-20 --> 10:37:01.812 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-20 --> 10:37:01.841 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - CONEXION EXITOSA A LA BASE DE DATOS:jdbc:postgresql://localhost:5432/repasofinal
+2025-12-20 --> 10:37:01.846 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - RETORNO CON EXITO mostrarPrestamos [
+ 
+ Prestamo [ idPrestamo=1, libro=
+ Libro [idlibro=1, titulo=LA ILIADA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=EDWIN, fechaPrestamo=2025-10-15, fechaDevolucion=2025-11-11], 
+ 
+ Prestamo [ idPrestamo=2, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=EUGENIA, fechaPrestamo=2025-09-15, fechaDevolucion=2025-10-11], 
+ 
+ Prestamo [ idPrestamo=4, libro=
+ Libro [idlibro=3, titulo=CENTRO DEL MUNDO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=MARLON, fechaPrestamo=2025-07-15, fechaDevolucion=2025-08-11], 
+ 
+ Prestamo [ idPrestamo=5, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DANIEL, fechaPrestamo=2025-05-15, fechaDevolucion=2025-06-11], 
+ 
+ Prestamo [ idPrestamo=6, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=LUISA, fechaPrestamo=2025-10-15, fechaDevolucion=2025-11-11], 
+ 
+ Prestamo [ idPrestamo=7, libro=
+ Libro [idlibro=7, titulo=EL HOSPITAL VACIO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=ALVARO, fechaPrestamo=2025-11-15, fechaDevolucion=2025-12-11], 
+ 
+ Prestamo [ idPrestamo=8, libro=
+ Libro [idlibro=9, titulo=EL PAYASO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=RAFAEL, fechaPrestamo=2025-04-15, fechaDevolucion=2025-05-11], 
+ 
+ Prestamo [ idPrestamo=9, libro=
+ Libro [idlibro=2, titulo=CUMANDA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=SIXTO, fechaPrestamo=2025-02-15, fechaDevolucion=2025-03-11], 
+ 
+ Prestamo [ idPrestamo=10, libro=
+ Libro [idlibro=6, titulo=EL LOBO Y EL CONEJO, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=ELOY, fechaPrestamo=2025-01-15, fechaDevolucion=2025-02-11], 
+ 
+ Prestamo [ idPrestamo=12, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=13, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=0202-06-06], 
+ 
+ Prestamo [ idPrestamo=14, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2444-06-06], 
+ 
+ Prestamo [ idPrestamo=15, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=16, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=17, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=18, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=19, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=20, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=21, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=22, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=23, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=24, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=25, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=26, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=27, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=28, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=29, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=30, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=31, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=DAVICHO FARINANGO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06], 
+ 
+ Prestamo [ idPrestamo=3, libro=
+ Libro [idlibro=5, titulo=LA ODISEA, autor=null, genero=null, anioPublicacion=0, estadoDisponibilidad=false], usuario=JAIME TACO, fechaPrestamo=2025-05-05, fechaDevolucion=2025-06-06]]
+2025-12-20 --> 10:37:01.846 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - BDD CERRADO EXITOSAMENTE
+2025-12-20 --> 10:52:46.543 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-20 --> 10:52:46.544 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO LIBRO .. >>>>>>>>>>>>>>>>>>
+2025-12-20 --> 10:52:46.544 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-20 --> 10:52:46.714 [main] ERROR com.krakedev.repasoii.utils.ConexionBDD - ERROR LA CONECTARSE REVISE USR Y PSW DE LA BDD
+org.postgresql.util.PSQLException: FATAL: no existe la base de datos �repasofinal�
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2736) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2861) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:178) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:344) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:57) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:279) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.Driver.makeConnection(Driver.java:448) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.8.jar:42.7.8]
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:613) ~[java.sql:?]
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:199) ~[java.sql:?]
+	at com.krakedev.repasoii.utils.ConexionBDD.conectar(ConexionBDD.java:25) [classes/:?]
+	at com.krakedev.repasoii.serviciosAdm.AdminServicios.insertarLibro(AdminServicios.java:137) [classes/:?]
+	at com.krakedev.repasoii.test.Pruebas.main(Pruebas.java:66) [classes/:?]
+2025-12-20 --> 10:55:23.090 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-20 --> 10:55:23.091 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO LIBRO .. >>>>>>>>>>>>>>>>>>
+2025-12-20 --> 10:55:23.091 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-20 --> 10:55:23.249 [main] ERROR com.krakedev.repasoii.utils.ConexionBDD - ERROR LA CONECTARSE REVISE USR Y PSW DE LA BDD
+org.postgresql.util.PSQLException: FATAL: no existe la base de datos �repasofinal�
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2736) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2861) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:178) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:344) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:57) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:279) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.Driver.makeConnection(Driver.java:448) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.8.jar:42.7.8]
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:613) ~[java.sql:?]
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:199) ~[java.sql:?]
+	at com.krakedev.repasoii.utils.ConexionBDD.conectar(ConexionBDD.java:25) [classes/:?]
+	at com.krakedev.repasoii.serviciosAdm.AdminServicios.insertarLibro(AdminServicios.java:137) [classes/:?]
+	at com.krakedev.repasoii.test.Pruebas.main(Pruebas.java:66) [classes/:?]
+2025-12-20 --> 10:57:37.271 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INICIANDO INSERCION LIBRO .......>>>>>>>>
+2025-12-20 --> 10:57:37.272 [main] TRACE com.krakedev.repasoii.utils.ConexionBDD - INSERTANDO LIBRO .. >>>>>>>>>>>>>>>>>>
+2025-12-20 --> 10:57:37.272 [main] DEBUG com.krakedev.repasoii.utils.ConexionBDD - OBTENIENDO CONEXION.....
+2025-12-20 --> 10:57:37.490 [main] ERROR com.krakedev.repasoii.utils.ConexionBDD - ERROR LA CONECTARSE REVISE USR Y PSW DE LA BDD
+org.postgresql.util.PSQLException: FATAL: no existe la base de datos �repasofinal�
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2736) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2861) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:178) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:344) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:57) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:279) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.Driver.makeConnection(Driver.java:448) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.8.jar:42.7.8]
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:613) ~[java.sql:?]
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:199) ~[java.sql:?]
+	at com.krakedev.repasoii.utils.ConexionBDD.conectar(ConexionBDD.java:25) [classes/:?]
+	at com.krakedev.repasoii.serviciosAdm.AdminServicios.insertarLibro(AdminServicios.java:137) [classes/:?]
+	at com.krakedev.repasoii.test.Pruebas.main(Pruebas.java:66) [classes/:?]
